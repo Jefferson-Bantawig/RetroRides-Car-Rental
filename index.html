@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags for Search Engines-->
+    <meta name="description"
+        content="RetroRides. The One and Only Vintage Car rental Service in Dublin. Relive the golden days of cars by renting your first Classic Car now!" />
+    <meta name="keywords"
+        content="RetroRides, cars, vintage, classic, classic cars, vintage cars, rental service, Bmw, Mercedes, Toyota, Ford, Audi, Dublin, Driving" />
+    <title>Retro Rides | Rental Service</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img id="mylogo" src="assets/images/car-logo.png" />
+        </a>
+        <!-- Nav Bar-->
+        <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+        <label for="nav-toggle" id="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="register">
+                    <a href="index.html">Log In <i class="fa-solid fa-user"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <div id="icons-container">
+            <ul>
+                <li class="sign-in icon"><i class="fa-solid fa-circle-user"></i></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Main Content-->
+    <main>
+        <section id="landing-page">
+            <div id="landing-text">
+                <h1>Retro Rides</h1>
+                <p class="welcome-text">Welcome to <span>Retro Rides</span> - Where Nostalgia Meets the Road!</p>
+                <p>
+                    Are you ready to turn back the clock and experience the thrill of a
+                    bygone era? At Retro Rides, we're passionate about making your
+                    vintage car dreams come true. Step into a world of timeless elegance
+                    and unparalleled style with our exclusive vintage car rental
+                    service.
+                </p>
+                <div id="apps-container">
+                    <p>Download the app</p>
+                    <button class="apps">
+                        <i class="fa-brands fa-apple"> </i>
+                    </button>
+                    <button class="apps">
+                        <i class="fa-brands fa-android"></i>
+                    </button>
+                    <button class="apps">Learn more</button>
+                </div>
+            </div>
+            <div id="landing-page-img">
+                <img src="assets/images/car-1932-ford-ford-motor-company-hot-rod-street-rod-nationals-hot-rod-fade1db30ed3d02ae8f0f4c9b69567d3.png"
+                    alt="Black muscle car" />
+            </div>
+        </section>
+        <!-- Featured Cars  Section-->
+        <section id="main-section">
+            <h2>Featured Cars</h2>
+            <div id="featured-cars-container">
+                <div class="featured-car-box">
+                    <div class="featured-car">
+                        <img src="assets/images/chevrolet-impala.jpg" alt="Black Vintage Convertible">
+                        <div>
+                            <h3>Cherolet Impala <br>
+                                1959
+                            </h3>
+                        </div>
+                        <div class="featured-car-description">
+                            <p>Elevate your travel with the Chevrolet Impala. Its sleek style, spacious comfort, and
+                                advanced safety features make it the ideal choice for your next adventure. Book now and
+                                enjoy the road in style!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-car-box">
+                    <div class="featured-car">
+                        <img src="assets/images/1902 Packard model F Rear-entry Tonneau.jpg"
+                            alt="Red Roofless Vintage Car">
+                        <div>
+                            <h3>Packard Model F Tonneau<br>
+                                1902
+                            </h3>
+                        </div>
+                        <div class="featured-car-description">
+                            <p>Experience vintage elegance with the Packard Model F Tonneau – the perfect choice for
+                                weddings, special events, and nostalgic journeys. Reserve your exclusive ride today!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-car-box">
+                    <div class="featured-car">
+                        <img src="assets/images/1930 Cadillac Model 452 v16.jpg" alt="Black Classy Vintage cadillac">
+                        <div>
+                            <h3>Cadillac Model 452 V16 <br>
+                                1930
+                            </h3>
+                        </div>
+                        <div class="featured-car-description">
+                            <p>Experience timeless luxury with the Cadillac Model 452 V16, perfect for weddings, special
+                                occasions, and unforgettable historic journeys. Book your exclusive ride today and step
+                                back in time!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-car-box">
+                    <div class="featured-car">
+                        <img src="assets/images/1949 Chevrolet Fleetline Deluxe.jpg"
+                            alt="Black Classy Vintage cadillac">
+                        <div>
+                            <h3>1949 Chevrolet Fleetline Deluxe <br>
+                                1949
+                            </h3>
+                        </div>
+                        <div class="featured-car-description">
+                            <p>Experience timeless luxury with the Cadillac Model 452 V16, perfect for weddings, special
+                                occasions, and unforgettable historic journeys. Book your exclusive ride today and step
+                                back in time!</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Search Car section-->
+        <section id="search-bar">
+            <div id="search-container">
+                <form id="car-search" action="https://formdump.codeinstitute.net" method="POST">
+                    <div>
+                        <label for="cars">Choose a Maker</label>
+                        <select name="cars" id="cars" required>
+                            <option value="" disabled selected>Please Select</option>
+                            <option name="ford" value="ford">Ford</option>
+                            <option name="buick" value="buick">Buick</option>
+                            <option name="edsel" value="edsel">Edsel</option>
+                            <option name="chevrolet" value="chevrolet">Chevrolet</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="-pickup-date">Pick up Date</label>
+                        <input name="pickup-date" id="pickup-date" type="date" required />
+                    </div>
+                    <div>
+                        <label for="return-date">Return Date</label>
+                        <input name="return-date" id="return-date" type="date" required />
+                    </div>
+                    <button type="submit" class="search-button">Search</button>
+                </form>
+
+            </div>
+        </section>
+
+        <!-- Car Options Section-->
+        <section id="our-cars-container">
+            <h2>We have what you need</h2>
+            <div id="our-cars">
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1930 Packard Deluxe Eight All-Weather Town Car.jpg"
+                            alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1930 Packard <br> Deluxe Eight</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/Vehicles Alfa Romeo 8C2300.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1932 Alfa Romeo 8C2300</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/chevrolet-impala.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1959 Chevrolet <br> Impala</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1957 Packardbaker Coupe.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1957 Packardbaker Coupe</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1928 Mercedes-Benz 680S Torpedo Roadster.jpg"
+                            alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1928 Mercedes-Benz 680S Torpedo Roadster</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1902 Packard model F Rear-entry Tonneau.jpg"
+                            alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1902 Packard <br> model F Rear-entry Tonneau</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1912 Packard Six Runabout.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1912 Packard <br> Six Runabout</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1929 Duesenberg Model J Sport Sedan.jpg"
+                            alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1929 Duesenberg Model J Sport Sedan</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1930 Cadillac Model 452 v16.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1930 Cadillac <br> Model 452</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1930 Morgan Plus 8 sports car.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1930 Morgan <br> Plus 8 sports</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1932 Ford Roadster.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1932 Ford <br> Roadster</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1940 Ford Convertible.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1940 Ford <br> Convertible</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-list">
+                    <div class="our-cars-img">
+                        <img src="assets/images/1949 Chevrolet Fleetline Deluxe.jpg" alt="Maroon Cadillac convertible">
+                    </div>
+                    <p>1949 Chevrolet Fleetline Deluxe</p>
+                    <div class="car-list-details">
+                        <div class="car-icons">
+                            <div><i class="fa-solid fa-gauge-simple-high"></i><br>100K</div>
+                            <div><i class="fa-solid fa-gas-pump"></i><br>Petrol</div>
+                            <div><i class="fa-solid fa-car-side"></i><br>Manual</div>
+                        </div>
+                        <div>
+                            <p class="price">€500</p>
+                            <button type="submit" class="rent-button">RENT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section id="services">
+            <div id="services-container">
+                <div id="services-column">
+                    <div class="services-box">
+                        <i class="fa-solid fa-car"></i>
+                        <p>Diverse Fleet</p>
+                    </div>
+                    <div class="services-box">
+                        <i class="fa-solid fa-comments-dollar"></i>
+                        <p>Competitive Rate</p>
+                    </div>
+                    <div class="services-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>24/7 Customer Support</p>
+                    </div>
+                </div>
+                <div id="services-text">
+                    <h2>Our Services</h2>
+                    <p>
+                        Welcome to RetroRides, where we bring the magic of a bygone era to
+                        life. We specialize in providing a unique and unforgettable
+                        vintage car rental experience in the heart of Dublin. Whether
+                        you're planning a wedding, a special event, or just want to cruise
+                        the streets of Dublin in style, we're here to make your dreams a
+                        reality.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="review-section">
+            <h2>What People say about us</h2>
+            <div id="review-container">
+                <div class="review-box">
+                    <div class="review-img woman">
+                        <img src="assets/images/review1.jpg" alt="Woman Smiling at camera">
+                    </div>
+                    <div class="review-text">
+                        <p>"Retro Rides turned my wedding into a fairytale! We rented a classic Cadillac, and the
+                            elegance and charm of the car were beyond words. The team's attention to detail and
+                            professionalism were exceptional. Thank you, Retro Rides, for making our special day
+                            unforgettable!"</p>
+                        <hr>
+                        <h3>Sarah</h3>
+                    </div>
+                </div>
+                <div class="review-box">
+                    <div class="review-img man">
+                        <img src="assets/images/reviewer2.jpg" alt="Man Smiling at camera">
+                    </div>
+                    <div class="review-text">
+                        <p>As a car enthusiast, Retro Rides is my go-to for that dose of nostalgia. The cars are
+                            immaculate, and the whole experience is a blast. I've rented several vintage gems, and each
+                            time, it feels like a journey back in time. A must-visit for all vintage car lovers!</p>
+                        <hr>
+                        <h3>Peter</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>Footer</footer>
+    <script src="https://kit.fontawesome.com/3ef2ec6fa0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
