@@ -112,14 +112,14 @@ main {
     align-items: center;
     background-color: #ff5c35;
     background-image: -webkit-linear-gradient(-30deg, white 85%, #ff5c35 50%);
-    min-height: 100vh;
+    height: 100vh;
     background-size: cover;
 
 }
 
 #landing-page h1 {
     color: #ff5c35;
-    font-size: 3rem;
+    font-size: 3.4rem;
 }
 
 span {
@@ -132,25 +132,24 @@ span {
     font-size: x-large;
 }
 
-#landing-text,
-#landing-page-img {
-    text-align: center;
-    margin-top: 2rem;
-
-}
-
 #landing-text {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 1rem;
 }
 
+#landing-text>.site-description {
+    max-width: 60ch;
+} 
+
 #landing-text p {
-    max-width: 30ch;
+    width: 100%;
     text-align: center;
     margin: 1rem;
 }
+
 
 #landing-page-img {
     width: 100%;
@@ -165,6 +164,10 @@ span {
 
 }
 
+#apps-container {
+    width: 20ch;
+}
+
 .apps {
     padding: 1em 2em;
     background-color: #ff5c35;
@@ -174,6 +177,7 @@ span {
     transition: .15s;
     cursor: pointer;
     margin: .3rem;
+    
 }
 
 .apps:hover {
@@ -194,41 +198,50 @@ span {
     color: #ff5c35;
 }
 
+
+/* Featured cars Section */
 #featured-cars-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 2rem;
     align-items: center;
+    background-image: -webkit-linear-gradient(60deg, rgb(196, 196, 196) 55%, white 50%)
 }
 
 .featured-car {
     margin: 1rem;
+    background-color: rgb(206, 206, 206);
     box-shadow: 0 0 5px black;
-    height: 500px;
     width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 10px 10px 0 0;
     overflow: hidden;
 }
 
 /* Centers the image and text of featured cars section*/
 
-.featured-car>div {
+.overlay {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-around;
     text-align: center;
     margin-bottom: 2rem;
+    
+}
+
+.overlay>h3 {
+    margin-bottom: 1rem;
 }
 
 /* Makes the Featured images the same dimensions*/
 .featured-car img {
     width: 100%;
-    margin-bottom: 3rem;
-
+    margin-bottom: 1rem;
     height: 210px;
     object-fit: cover;
 }
@@ -297,7 +310,7 @@ span {
 
 
 #our-cars-container {
-    background-image: -webkit-linear-gradient(-30deg, white 55%, rgb(247, 242, 242)50%);
+    background-image: -webkit-linear-gradient(-41deg, white 55%, rgb(196, 196, 196)50%);
     text-align: center;
     padding: 2rem;
     display: flex;
@@ -384,7 +397,7 @@ span {
 #services-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(224, 223, 223);
     flex-direction: column;
 
 }
@@ -487,8 +500,11 @@ span {
 /* Footer Section */
 
 footer {
-    background-color: lightblue;
+    background-color: yellow;
 }
+
+
+
 
 
 
@@ -497,10 +513,17 @@ footer {
 
 
 /* This media query is needed so that in 768px screens, the featured car column is aligned with each other */
-@media screen and(min-width: 320px) {
+@media screen and (min-width: 320px) {
+
     .featured-car {
         width: 300px;
     }
+    #landing-text>p {
+        line-height: 1.7;
+    }
+    /* This will display "learn More" button below the 2 logos in smaller screens*/
+    
+    
 }
 
 
@@ -565,16 +588,18 @@ footer {
 
     /* Changes the background position when viewing in larger screens */
     #landing-page {
-        background-image: -webkit-linear-gradient(-30deg, white 65%, #ff5c35 50%)
+        background-image: -webkit-linear-gradient(-30deg, white 65%, #ff5c35 50%);
+        height: 100vh;
     }
-
-    #landing-text p {
-        max-width: 60ch;
+    #landing-page h1 {
+        color: #ff5c35;
+        font-size: 6rem;
     }
 
     /* displays the landing page image on bigger screens */
     #landing-page-img {
         display: block;
+        
     }
 
     #return-date-div {
@@ -583,6 +608,9 @@ footer {
 
     .featured-car {
         width: 300px;
+    }
+    #apps-container {
+        width: 100%;
     }
 
     /* Review Section */
@@ -633,17 +661,21 @@ footer {
 @media screen and (min-width: 1024px) {
     #landing-page {
         flex-direction: row;
-        height: 90vh;
 
     }
 
     /* Sets landing text to 50% of viewport width*/
     #landing-text {
-        width: 100%;
+        width: 80%;
+        margin: 0;
     }
-
+    #landing-page-img {
+        margin: 0;
+    }
+    
     #landing-page-img img {
         max-width: 800px;
+        margin: 0;
     }
 
     /* Services Section */
@@ -662,6 +694,42 @@ footer {
         flex-direction: row;
     }
 
+    /* styling for hover animation */
+    .featured-car-box {
+        cursor: pointer;
+    }
+   .featured-car{
+    width: 400px;
+    position: relative;
+    height:400px;
+   }
 
+   .featured-car img {
+    height: auto;
+    display: block;
+    max-height: 100%
+   }
+
+   .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+    margin-bottom: 0;
+    justify-content: space-evenly;
+    text-align: center;
+   }
+
+   .featured-car:hover .overlay {
+    height: 100%;
+    color: white;
+   }
+
+
+    
 
 }
