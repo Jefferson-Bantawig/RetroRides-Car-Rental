@@ -66,7 +66,6 @@ nav {
     background-color: inherit;
     width: 100%;
     box-shadow: 0 1px 2px #ff5c35;
-    ;
     line-height: 2.3rem;
     padding: 0 10px;
     display: none;
@@ -142,7 +141,7 @@ span {
 
 #landing-text>.site-description {
     max-width: 60ch;
-} 
+}
 
 #landing-text p {
     width: 100%;
@@ -177,7 +176,7 @@ span {
     transition: .15s;
     cursor: pointer;
     margin: .3rem;
-    
+
 }
 
 .apps:hover {
@@ -231,7 +230,7 @@ span {
     justify-content: space-around;
     text-align: center;
     margin-bottom: 2rem;
-    
+
 }
 
 .overlay>h3 {
@@ -500,10 +499,61 @@ span {
 /* Footer Section */
 
 footer {
-    background-color: yellow;
+    background-color: rgb(41, 41, 41);
+    color: #ff5c35;
 }
 
 
+
+#socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#socials>h2 {
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+#socials>div {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding-bottom: 1rem;
+    color: #ff5c35;
+}
+
+.drop-downs {
+    margin: 1rem;
+}
+
+#page-toggle-label,
+#support-toggle-label {
+    font-size: large;
+    font-weight: bold;
+}
+
+/*This will Style the footer section with a dropdown button when viewing on smaller screens */
+#page-toggle,
+#support-toggle,
+.footer-menu {
+    display: none;
+}
+
+#page-toggle:checked~.footer-menu {
+    display: block;
+}
+
+#support-toggle:checked~.footer-menu {
+    display: block;
+}
+
+.footer-menu a {
+    color: white;
+    line-height: 2;
+}
 
 
 
@@ -518,12 +568,14 @@ footer {
     .featured-car {
         width: 300px;
     }
+
     #landing-text>p {
         line-height: 1.7;
     }
+
     /* This will display "learn More" button below the 2 logos in smaller screens*/
-    
-    
+
+
 }
 
 
@@ -591,6 +643,7 @@ footer {
         background-image: -webkit-linear-gradient(-30deg, white 65%, #ff5c35 50%);
         height: 100vh;
     }
+
     #landing-page h1 {
         color: #ff5c35;
         font-size: 6rem;
@@ -599,7 +652,7 @@ footer {
     /* displays the landing page image on bigger screens */
     #landing-page-img {
         display: block;
-        
+
     }
 
     #return-date-div {
@@ -609,6 +662,7 @@ footer {
     .featured-car {
         width: 300px;
     }
+
     #apps-container {
         width: 100%;
     }
@@ -669,10 +723,11 @@ footer {
         width: 80%;
         margin: 0;
     }
+
     #landing-page-img {
         margin: 0;
     }
-    
+
     #landing-page-img img {
         max-width: 800px;
         margin: 0;
@@ -698,38 +753,122 @@ footer {
     .featured-car-box {
         cursor: pointer;
     }
-   .featured-car{
-    width: 400px;
-    position: relative;
-    height:400px;
-   }
 
-   .featured-car img {
-    height: auto;
-    display: block;
-    max-height: 100%
-   }
+    .featured-car {
+        width: 400px;
+        position: relative;
+        height: 400px;
+    }
 
-   .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-    width: 100%;
-    height: 0;
-    transition: 0.5s ease;
-    margin-bottom: 0;
-    justify-content: space-evenly;
-    text-align: center;
-   }
+    .featured-car img {
+        height: auto;
+        display: block;
+        max-height: 100%
+    }
 
-   .featured-car:hover .overlay {
-    height: 100%;
-    color: white;
-   }
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 0;
+        transition: 0.5s ease;
+        margin-bottom: 0;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .featured-car:hover .overlay {
+        height: 100%;
+        color: white;
+    }
 
 
-    
+
+
+}
+
+
+
+
+/* Media Query for screens 1024px and above */
+
+@media screen and (min-width: 1024px) {
+    #landing-page {
+        flex-direction: row;
+
+    }
+
+    /* Sets landing text to 50% of viewport width*/
+    #landing-text {
+        width: 80%;
+        margin: 0;
+    }
+
+    #landing-page-img {
+        margin: 0;
+    }
+
+    #landing-page-img img {
+        max-width: 800px;
+        margin: 0;
+    }
+
+    /* Services Section */
+
+    #services-column {
+        order: 0;
+        width: 50%;
+    }
+
+    #services-text {
+        margin-right: 30px;
+        max-width: 550px;
+    }
+
+    #services-container {
+        flex-direction: row;
+    }
+
+    /* styling for hover animation */
+    .featured-car-box {
+        cursor: pointer;
+    }
+
+    .featured-car {
+        width: 400px;
+        position: relative;
+        height: 400px;
+    }
+
+    .featured-car img {
+        height: auto;
+        display: block;
+        max-height: 100%
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 0;
+        transition: 0.5s ease;
+        margin-bottom: 0;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .featured-car:hover .overlay {
+        height: 100%;
+        color: white;
+    }
+
+
+
 
 }
