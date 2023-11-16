@@ -545,7 +545,7 @@ footer {
 
 #page-toggle-label,
 #support-toggle-label {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
 }
 
@@ -773,11 +773,7 @@ footer {
         cursor: pointer;
     }
 
-    #footer-container {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
+    
 }
 
 
