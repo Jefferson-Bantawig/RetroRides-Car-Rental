@@ -503,6 +503,10 @@ footer {
     color: #ff5c35;
 }
 
+#footer-container {
+    text-align: center;
+}
+
 
 
 #socials {
@@ -558,14 +562,13 @@ footer {
 #address {
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
 }
 
 #address>h3 {
     margin-bottom: 1rem;
 }
 #address>p {
-    color: white
+    color: white;
 }
 
 
@@ -729,12 +732,15 @@ footer {
         display: block;
     }
 
+    .footer-menu a {
+        cursor: pointer; /* pointer only shows up when hovering on the letters*/
+    }
+
     #page-toggle-label .fa-solid,
     #support-toggle-label .fa-solid {
         display: none;
     }
     #socials {
-        width: 50%; 
         align-items: flex-start;
     }
 
@@ -742,9 +748,14 @@ footer {
         align-items: flex-start;
     }
 
+    #socials-icons {
+        cursor: pointer;
+    }
+
     #footer-container {
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
 }
 
