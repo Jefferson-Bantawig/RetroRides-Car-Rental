@@ -111,7 +111,7 @@ main {
     align-items: center;
     background-color: #ff5c35;
     background-image: -webkit-linear-gradient(-30deg, white 85%, #ff5c35 50%);
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
 
 }
@@ -273,16 +273,17 @@ span {
     border-radius: 10px;
     box-shadow: 0px 0px 1px black;
     padding: 1rem;
+    background-color: rgb(156, 156, 156)
 }
 
 #cars,
 #pickup-date,
 #return-date {
-   width: 100%;
-   height: 50px;
-   border: 1.5px solid black;
-   text-align: center;
-   margin-top: 1rem;
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid black;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 #car-search {
@@ -291,7 +292,7 @@ span {
     align-items: center;
     width: 100%;
     justify-content: center;
-    color: #ff5c35;
+    color: white;
 }
 
 #car-search>div {
@@ -339,6 +340,7 @@ span {
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
+    max-width: 1440px;
 }
 
 .car-list {
@@ -406,7 +408,7 @@ span {
 #services-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(224, 223, 223);
+    background-color: white;
     flex-direction: column;
 
 }
@@ -464,9 +466,78 @@ span {
     text-align: justify;
 }
 
+#list-of-services-section {
+    margin-top: 2rem;
+    background-image: -webkit-linear-gradient(220deg, white 90%, #ff5c35 50%);
+}
+
+#list-of-services-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+#list-of-services-container>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#list-of-services-container>h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+    color: #ff5c35;
+}
+
+.list-of-services {
+    margin: 1rem;
+    background-image: -webkit-linear-gradient(-30deg, rgb(224, 223, 223) 85%, #ff5c35 50%);
+    padding: 1rem;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.list-of-services>h3 {
+    margin-bottom: 1rem;
+}
+
+.list-of-services>p {
+    text-align: justify;
+    padding: 0 .9em;
+}
+
+#list-info {
+    align-self: center;
+
+}
+
+#list-info>p {
+    padding: 1rem;
+    text-align: justify;
+    font-size: 1.5rem;
+    max-width: 500px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+#list-info-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: none;
+}
+
+
+
+
 /* Reviews Section */
+#review-section {
+    margin-top: 2rem;
+}
+
 #review-section>h2 {
-    padding: 2rem 0;
     color: #ff5c35;
     text-align: center;
 }
@@ -474,6 +545,7 @@ span {
 .review-box {
     margin: 1.5rem 0;
     background-color: rgb(226, 226, 226);
+    max-width: 1250px;
 }
 
 .review-img {
@@ -504,6 +576,51 @@ span {
     font-style: italic;
 }
 
+/* About us Section */
+
+#about-us-section {
+    display: flex;
+    justify-content: center;
+}
+
+#about-us-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 226, 226);
+    margin-bottom: 2rem;
+    max-width: 1250px;
+    width: 80%;
+    align-self: center;
+    border-radius: 20px;
+
+}
+
+#about-us-text {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+}
+
+#about-us-text>h2 {
+    color: #ff5c35;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#about-us-text>p {
+    text-align: justify;
+    max-width: 600px;
+}
+
+#about-us-text span {
+    font-size: x-large;
+}
+
+#about-us-img {
+    display: none;
+    /* This image will only show up in screens 1024px and above*/
+}
 
 
 /* Footer Section */
@@ -577,6 +694,7 @@ footer {
 #address>h3 {
     margin-bottom: 1rem;
 }
+
 #address>p {
     color: white;
 }
@@ -634,27 +752,26 @@ footer {
     }
 
     #menu>li a {
-        padding: 1.5em 1em;
         border-radius: 10px;
         cursor: pointer;
         transition: .4s;
+
+    }
+
+    #menu>li a:hover .fa-solid {
+        color: black;
     }
 
     #menu>li a:hover {
         padding: .7em 1em;
-        background-color: #66fcf1;
+        background-color: #ff5c35;
         color: black;
         opacity: .6;
     }
 
     /* Sets hover animation the same as non-active class */
-    #menu>li .active:hover {
-        padding: .4em .5em
-    }
-
-    #menu>li .active {
-        padding: 1.3em .5em;
-
+    #menu>li:hover .active {
+        padding: .3em .7em;
     }
 
 
@@ -667,12 +784,12 @@ footer {
     /* Changes the background position when viewing in larger screens */
     #landing-page {
         background-image: -webkit-linear-gradient(-30deg, white 65%, #ff5c35 50%);
-        height: 100vh;
+        height: auto;
     }
 
     #landing-page h1 {
         color: #ff5c35;
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     /* displays the landing page image on bigger screens */
@@ -693,14 +810,33 @@ footer {
         width: 100%;
     }
 
+    /* Search Section */
+    #search-container {
+        width: 95%;
+        max-width: 1000px;
+    }
+
     #car-search {
         flex-direction: row;
+        justify-content: space-between;
     }
+
     .search-button {
         margin-top: 2rem;
     }
-    
-    
+
+    /* Services Section */
+    #list-info {
+        margin: 2rem 0;
+    }
+
+    #list-info-img img {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 2rem;
+    }
+
+
 
 
 
@@ -714,8 +850,7 @@ footer {
 
     .review-box {
         display: flex;
-        margin: 4rem 0;
-        width: 90%;
+        width: 80%;
         align-items: center;
 
     }
@@ -743,6 +878,10 @@ footer {
         border-radius: 50px 0 50px 0px;
     }
 
+
+    /* About us Section*/
+
+
     /* Footer Section */
     #footer-container {
         display: flex;
@@ -754,13 +893,15 @@ footer {
     }
 
     .footer-menu a {
-        cursor: pointer; /* pointer only shows up when hovering on the letters*/
+        cursor: pointer;
+        /* pointer only shows up when hovering on the letters*/
     }
 
     #page-toggle-label .fa-solid,
     #support-toggle-label .fa-solid {
         display: none;
     }
+
     #socials {
         align-items: flex-start;
     }
@@ -773,7 +914,7 @@ footer {
         cursor: pointer;
     }
 
-    
+
 }
 
 
@@ -807,6 +948,7 @@ footer {
     #services-column {
         order: 0;
         width: 50%;
+        align-items: center;
     }
 
     #services-text {
@@ -817,6 +959,8 @@ footer {
     #services-container {
         flex-direction: row;
     }
+
+
 
     /* styling for hover animation */
     .featured-car-box {
@@ -853,5 +997,24 @@ footer {
         height: 100%;
         color: white;
     }
-}
 
+    /* About us Section */
+    #about-us-container {
+        justify-content: space-around;
+        padding: 1rem;
+    }
+
+    #about-us-img {
+        display: flex;
+        align-items: center;
+        order: -1;
+    }
+
+    #about-us-img img {
+        object-fit: cover;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        object-position: top left;
+    }
+}
