@@ -273,7 +273,7 @@ span {
     border-radius: 10px;
     box-shadow: 0px 0px 1px black;
     padding: 1rem;
-    background-color: rgb(156, 156, 156)
+    background-color: rgb(41, 41, 41)
 }
 
 #cars,
@@ -322,7 +322,6 @@ span {
 #our-cars-container {
     background-image: -webkit-linear-gradient(-41deg, white 55%, rgb(196, 196, 196)50%);
     text-align: center;
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -332,6 +331,7 @@ span {
     padding: 0 0 3rem 0;
     font-size: xx-large;
     color: #ff5c35;
+    margin-top: 2rem;
 }
 
 #our-cars {
@@ -529,8 +529,83 @@ span {
     display: none;
 }
 
+/* Contact Us Section */
+#contact-us-hero {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ff5c35;
+}
+
+#contact-us-hero>h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#help-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#help-bar {
+    width: 70%;
+    max-width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+#help-btn {
+    width: 50px;
+    height: 41.5px;
+    border: none;
+    position: relative;
+    background-color: #ff5c35;
+    right: 20px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+#contact-us-container>h3 {
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#contact-us-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
 
 
+
+#contact-us-content>div {
+    width: 250px;
+    height: 150px;
+    background-color: #ff5c35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#contact-us-content .fa-solid {
+    font-size: 4rem;
+    margin: 1rem;
+}
 
 /* Reviews Section */
 #review-section {
@@ -877,9 +952,6 @@ footer {
     .man img {
         border-radius: 50px 0 50px 0px;
     }
-
-
-    /* About us Section*/
 
 
     /* Footer Section */
