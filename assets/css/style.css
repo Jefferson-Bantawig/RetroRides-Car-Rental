@@ -146,7 +146,7 @@ span {
 #landing-text p {
     width: 100%;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 
@@ -194,14 +194,14 @@ span {
 
 #main-section>h2 {
     padding: 2rem;
-    font-size: xx-large;
+    font-size: 3rem;
     color: #ff5c35;
     width: 90%;
     align-self: center;
     border: 1px solid white;
     border-radius: 20px;
     background-color: rgb(247, 242, 242);
-    margin-top: 2rem;
+    margin: 2rem;
 }
 
 
@@ -335,10 +335,15 @@ span {
 }
 
 #our-cars-container>h2 {
-    padding: 0 0 3rem 0;
-    font-size: xx-large;
+    padding: 2rem;
+    font-size: 3rem;
     color: #ff5c35;
-    margin-top: 2rem;
+    width: 90%;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(247, 242, 242);
+    margin: 2rem 0;
 }
 
 #our-cars {
@@ -617,10 +622,20 @@ span {
 /* Reviews Section */
 #review-section {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #review-section>h2 {
+    padding: 2rem;
+    font-size: 3rem;
     color: #ff5c35;
+    width: 90%;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(247, 242, 242);
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -671,7 +686,7 @@ span {
     background-color: rgb(226, 226, 226);
     margin-bottom: 2rem;
     max-width: 1250px;
-    width: 80%;
+    width: 90%;
     align-self: center;
     border-radius: 20px;
 
