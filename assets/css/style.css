@@ -100,7 +100,7 @@ nav {
 /* Main content */
 
 main {
-    min-height: 100vh;
+
     margin-top: 65px;
     color: black;
 }
@@ -623,7 +623,11 @@ span {
 /* Login Section */
 
 #login-container {
-    background-color: rgb(41, 41, 41)
+    background-color: rgb(41, 41, 41);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
 #login-container h1 {
@@ -631,11 +635,25 @@ span {
     font-size: 3rem;
     padding: 1.5rem 0;
     color: #ff5c35;
+    margin-bottom: 2rem;
+}
+
+#login-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: -webkit-linear-gradient(-30deg, rgb(224, 223, 223) 85%, #ff5c35 50%);
+    height: 400px;
+    border-radius: 5px;
+    margin: 0 3rem 5rem 3rem;
+    max-width: 350px;
+    width: 96%;
+
 }
 
 #login-column>h4 {
     margin-left: 15px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #ff5c35;
 }
 
@@ -649,7 +667,7 @@ span {
     height: 40px;
     border: 2px solid black;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -660,7 +678,7 @@ span {
 }
 
 #forgot-pass p {
-    color: white;
+    color: black;
 }
 
 #login-button {
@@ -678,8 +696,7 @@ span {
 
 #create-account p,
 #create-account a {
-    color: white;
-
+    color: black;
 }
 
 /* Reviews Section */
@@ -877,8 +894,11 @@ footer {
         line-height: 1.7;
     }
 
-    /* This will display "learn More" button below the 2 logos in smaller screens*/
+    /* Log in Section */
 
+    #login-container {
+        background: url(../images/background-image4.jpg) left center / cover;
+    }
 
 }
 
@@ -926,7 +946,7 @@ footer {
         padding: .7em 1em;
         background-color: #ff5c35;
         color: black;
-        opacity: .6;
+        opacity: .8;
     }
 
     /* Sets hover animation the same as non-active class */
@@ -1002,8 +1022,15 @@ footer {
         grid-template-columns: 250px 250px;
     }
 
+    /* Log in Section */
+    #login-container {
+        align-items: baseline;
+        min-height: 90vh;
+    }
 
-
+    #login-container h1 {
+        padding-left: 60px;
+    }
 
 
     /* Review Section */
@@ -1102,9 +1129,11 @@ footer {
     }
 
     #landing-page-img img {
-        max-width: 800px;
+        max-width: 100%;
         margin: 0;
     }
+
+
 
     /* Services Section */
 
@@ -1184,5 +1213,16 @@ footer {
     /*Contact us section */
     #contact-us-content {
         grid-template-columns: 250px 250px 250px;
+    }
+}
+
+
+@media screen and (min-width: 2000px) {
+    #landing-text>h1 {
+        font-size: 13rem;
+    }
+
+    #landing-text>p {
+        font-size: 2rem;
     }
 }
