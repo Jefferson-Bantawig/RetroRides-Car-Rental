@@ -212,7 +212,7 @@ span {
     justify-content: space-around;
     padding: 2rem;
     align-items: center;
-    background-image: -webkit-linear-gradient(60deg, rgb(196, 196, 196) 55%, white 50%)
+    background-image: -webkit-linear-gradient(140deg, rgb(196, 196, 196) 20%, white 10%)
 }
 
 .featured-car {
@@ -327,7 +327,7 @@ span {
 
 
 #our-cars-container {
-    background-image: -webkit-linear-gradient(-41deg, white 55%, rgb(196, 196, 196)50%);
+    background-image: -webkit-linear-gradient(-120deg, white 75%, rgb(196, 196, 196) 40%);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -367,6 +367,7 @@ span {
     padding: 0 0 1rem 0;
     overflow: hidden;
     margin-bottom: 2rem;
+    background-color: white;
 }
 
 
