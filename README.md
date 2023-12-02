@@ -17,10 +17,10 @@ This Website is to be passed as my first Milestone project for Code Institutes F
 
 ____
 
-#UX Design
+# UX Design
 
-##User Experience
-###First time users will be able to:
+## User Experience
+### First time users will be able to:
     - See at first glance what the main purpose of the site.
     - Appreciate the eye-catching design of the website's landing page.
     - Get a small introduction to the site through the landing page.
