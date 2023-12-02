@@ -1,6 +1,6 @@
 /* Google fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto:wght@500&display=swap");
 
 /* General Styling */
 * {
@@ -31,7 +31,6 @@ header>a {
     margin: 0 1rem;
 }
 
-
 /* Navigation Section */
 
 /* header displays hamburger button on smaller screens */
@@ -51,7 +50,6 @@ header {
     padding: 0 15px;
     color: #ff5c35;
 }
-
 
 /* Only displays content when  hamburger button is clicked*/
 #nav-toggle,
@@ -88,7 +86,7 @@ nav {
     font-weight: bold;
     text-decoration: underline;
     color: #ff5c35;
-    padding: 1px
+    padding: 1px;
 }
 
 .register .fa-user {
@@ -96,11 +94,9 @@ nav {
     color: #ff5c35;
 }
 
-
 /* Main content */
 
 main {
-
     margin-top: 65px;
     color: black;
 }
@@ -124,7 +120,6 @@ main {
 span {
     color: #ff5c35;
     font-size: xx-large;
-
 }
 
 .welcome-text {
@@ -149,7 +144,6 @@ span {
     margin: 1rem 0;
 }
 
-
 #landing-page-img {
     width: 100%;
     margin-top: 2rem;
@@ -160,7 +154,6 @@ span {
 #landing-page-img img {
     width: 100%;
     max-width: 600px;
-
 }
 
 #apps-container {
@@ -173,16 +166,14 @@ span {
     border: none;
     border-radius: 20px;
     color: black;
-    transition: .15s;
+    transition: 0.15s;
     cursor: pointer;
-    margin: .3rem;
-
+    margin: 0.3rem;
 }
 
 .apps:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
-
 
 /* Main Section */
 #main-section {
@@ -204,7 +195,6 @@ span {
     margin: 2rem;
 }
 
-
 /* Featured cars Section */
 #featured-cars-container {
     display: flex;
@@ -212,7 +202,9 @@ span {
     justify-content: space-around;
     padding: 2rem;
     align-items: center;
-    background-image: -webkit-linear-gradient(140deg, rgb(196, 196, 196) 20%, white 10%)
+    background-image: -webkit-linear-gradient(140deg,
+            rgb(196, 196, 196) 20%,
+            white 10%);
 }
 
 .featured-car {
@@ -237,7 +229,6 @@ span {
     justify-content: space-around;
     text-align: center;
     margin-bottom: 2rem;
-
 }
 
 .overlay>h3 {
@@ -263,9 +254,6 @@ span {
     color: black;
 }
 
-
-
-
 /* Search Section*/
 
 #search-bar {
@@ -280,7 +268,7 @@ span {
     border-radius: 10px;
     box-shadow: 0px 0px 1px black;
     padding: 1rem;
-    background-color: rgb(41, 41, 41)
+    background-color: rgb(41, 41, 41);
 }
 
 #cars,
@@ -325,9 +313,10 @@ span {
 
 /* Our Car Options Section */
 
-
 #our-cars-container {
-    background-image: -webkit-linear-gradient(-120deg, white 75%, rgb(196, 196, 196) 40%);
+    background-image: -webkit-linear-gradient(-120deg,
+            white 75%,
+            rgb(196, 196, 196) 40%);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -370,7 +359,6 @@ span {
     background-color: white;
 }
 
-
 .our-cars-img img {
     max-width: 100%;
     object-fit: cover;
@@ -404,7 +392,7 @@ span {
 
 .rent-button {
     background-color: #ff5c35;
-    padding: .8em 3em;
+    padding: 0.8em 3em;
     border-radius: 5px;
     border: 1px solid black;
     color: white;
@@ -416,14 +404,12 @@ span {
     opacity: 0.8;
 }
 
-
 /* Services Section */
 #services-container {
     display: flex;
     justify-content: space-around;
     background-color: white;
     flex-direction: column;
-
 }
 
 #services-column {
@@ -431,7 +417,6 @@ span {
     flex-wrap: wrap;
     order: 2;
     justify-content: center;
-
 }
 
 .services-box>i {
@@ -506,7 +491,9 @@ span {
 
 .list-of-services {
     margin: 1rem;
-    background-image: -webkit-linear-gradient(-30deg, rgb(224, 223, 223) 85%, #ff5c35 50%);
+    background-image: -webkit-linear-gradient(-30deg,
+            rgb(224, 223, 223) 85%,
+            #ff5c35 50%);
     padding: 1rem;
     max-width: 300px;
     border-radius: 10px;
@@ -518,12 +505,11 @@ span {
 
 .list-of-services>p {
     text-align: justify;
-    padding: 0 .9em;
+    padding: 0 0.9em;
 }
 
 #list-info {
     align-self: center;
-
 }
 
 #list-info>p {
@@ -604,8 +590,6 @@ span {
     margin-bottom: 2rem;
 }
 
-
-
 #contact-us-content>div {
     width: 100%;
     height: 150px;
@@ -628,7 +612,6 @@ span {
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
 #login-container h1 {
@@ -643,13 +626,14 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: -webkit-linear-gradient(-30deg, rgb(224, 223, 223) 85%, #ff5c35 50%);
+    background-image: -webkit-linear-gradient(-30deg,
+            rgb(224, 223, 223) 85%,
+            #ff5c35 50%);
     height: 400px;
     border-radius: 5px;
     margin: 0 3rem 5rem 3rem;
     max-width: 350px;
     width: 96%;
-
 }
 
 #login-column>h4 {
@@ -736,7 +720,6 @@ span {
 .review-img img {
     width: 100%;
     max-width: 400px;
-
 }
 
 .review-text {
@@ -770,7 +753,6 @@ span {
     width: 90%;
     align-self: center;
     border-radius: 20px;
-
 }
 
 #about-us-text {
@@ -800,7 +782,6 @@ span {
     /* This image will only show up in screens 1024px and above*/
 }
 
-
 /* Footer Section */
 
 footer {
@@ -812,13 +793,10 @@ footer {
     text-align: center;
 }
 
-
-
 #socials {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #socials>h2 {
@@ -877,16 +855,10 @@ footer {
     color: white;
 }
 
-
-
-
-
 /* Media Query for screens 320px and above */
-
 
 /* This media query is needed so that in 768px screens, the featured car column is aligned with each other */
 @media screen and (min-width: 320px) {
-
     .featured-car {
         width: 300px;
     }
@@ -900,10 +872,7 @@ footer {
     #login-container {
         background: url(../images/background-image4.jpg) left center / cover;
     }
-
 }
-
-
 
 /* Media Query for Screens 768px and above */
 
@@ -935,8 +904,8 @@ footer {
     #menu>li a {
         border-radius: 10px;
         cursor: pointer;
-        transition: .4s;
-
+        transition: 0.45;
+        padding: 0.7em 1em;
     }
 
     #menu>li a:hover .fa-solid {
@@ -944,17 +913,15 @@ footer {
     }
 
     #menu>li a:hover {
-        padding: .7em 1em;
         background-color: #ff5c35;
         color: black;
-        opacity: .8;
+        opacity: 0.8;
     }
 
     /* Sets hover animation the same as non-active class */
-    #menu>li:hover .active {
-        padding: .3em .7em;
+    #menu>li .active {
+        padding: 0.3em 0.7em;
     }
-
 
     #nav-toggle-label {
         display: none;
@@ -977,7 +944,6 @@ footer {
     /* displays the landing page image on bigger screens */
     #landing-page-img {
         display: block;
-
     }
 
     #return-date-div {
@@ -1034,7 +1000,6 @@ footer {
         padding-left: 60px;
     }
 
-
     /* Review Section */
     #review-container {
         display: flex;
@@ -1047,7 +1012,6 @@ footer {
         display: flex;
         width: 80%;
         align-items: center;
-
     }
 
     .review-img img {
@@ -1062,7 +1026,6 @@ footer {
 
     .man {
         order: 2;
-
     }
 
     .man~.review-text h3 {
@@ -1072,7 +1035,6 @@ footer {
     .man img {
         border-radius: 50px 0 50px 0px;
     }
-
 
     /* Footer Section */
     #footer-container {
@@ -1105,19 +1067,13 @@ footer {
     #socials-icons {
         cursor: pointer;
     }
-
-
 }
-
-
-
 
 /* Media Query for screens 1024px and above */
 
 @media screen and (min-width: 1024px) {
     #landing-page {
         flex-direction: row;
-
     }
 
     /* Sets landing text to 50% of viewport width*/
@@ -1134,8 +1090,6 @@ footer {
         max-width: 100%;
         margin: 0;
     }
-
-
 
     /* Services Section */
 
@@ -1154,8 +1108,6 @@ footer {
         flex-direction: row;
     }
 
-
-
     /* styling for hover animation */
     .featured-car-box {
         cursor: pointer;
@@ -1170,7 +1122,7 @@ footer {
     .featured-car img {
         height: auto;
         display: block;
-        max-height: 100%
+        max-height: 100%;
     }
 
     .overlay {
@@ -1217,7 +1169,6 @@ footer {
         grid-template-columns: 250px 250px 250px;
     }
 }
-
 
 @media screen and (min-width: 2000px) {
     #landing-text>h1 {
