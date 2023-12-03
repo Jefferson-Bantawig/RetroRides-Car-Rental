@@ -834,6 +834,10 @@ footer {
     color: #ff5c35;
 }
 
+#socials-icons a {
+    color: #ff5c35;
+}
+
 .drop-downs {
     margin: 1rem;
 }
