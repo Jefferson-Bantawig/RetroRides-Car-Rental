@@ -853,6 +853,7 @@ footer {
 #support-toggle,
 .footer-menu {
     display: none;
+    text-decoration: none;
 }
 
 #page-toggle:checked~.footer-menu {
@@ -866,6 +867,7 @@ footer {
 .footer-menu a {
     color: white;
     line-height: 2;
+    text-decoration: none;
 }
 
 #address {
