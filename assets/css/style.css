@@ -1094,6 +1094,10 @@ footer {
         display: block;
     }
 
+    .footer-menu>ul {
+        margin-top: 30px
+    }
+
     .footer-menu a {
         cursor: pointer;
         /* pointer only shows up when hovering on the letters*/
