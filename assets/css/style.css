@@ -1030,6 +1030,10 @@ footer {
         grid-template-columns: 250px 250px;
     }
 
+    #contact-section {
+        min-height: 80vh;
+    }
+
     /* Log in Section */
     #login-container {
         align-items: baseline;
