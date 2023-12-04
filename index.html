@@ -74,7 +74,7 @@
               ><button class="apps">
                 <i class="fa-brands fa-android"></i></button
             ></a>
-            <a href="Contact.html" target="_blank"
+            <a href="contact.html" target="_blank"
               ><button class="apps">Learn more</button></a
             >
           </div>
@@ -180,7 +180,7 @@
             method="POST"
           >
             <div>
-              <label for="cars">Choose a Maker</label>
+              <label for="cars">Tell us which car you're interested in</label>
               <select name="cars" id="cars" required>
                 <option value="" disabled selected>Please Select</option>
                 <option id="ford" value="ford">Ford</option>
@@ -194,12 +194,21 @@
               </select>
             </div>
             <div>
-              <label for="pickup-date">Pick up Date</label>
-              <input name="pickup-date" id="pickup-date" type="date" required />
+              <label for="car-of-interest"
+                >Tell us why you are interested in this car?</label
+              >
+              <input
+                name="car-of-interest"
+                id="car-of-interest"
+                type="text"
+                required
+              />
             </div>
             <div>
-              <label for="return-date">Return Date</label>
-              <input name="return-date" id="return-date" type="date" required />
+              <label for="use-of-car"
+                >Tell us what you are using the car for?</label
+              >
+              <input name="use-of-car" id="use-of-car" type="text" required />
             </div>
             <button type="submit" class="search-button">Search</button>
           </form>
