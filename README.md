@@ -33,7 +33,22 @@ ____
 
 ### All users will also be able to access the website in smartphones and tablet screens.
 
-## Structure
+# Structure
+
+## Home Page
+    - Uses bright colors to help engage users to the site.
+    - Provides users the information they need right off the bat.
+    - Feedback from previous customers gives new users a sense of trust to the website.
+  ### User Goal:
+     - Understand what services website provides.
+     - View all pages and sections of the website.
+     - Navigate the website without any difficulties.
+     - Find all the selection of available cars.
+  ### Website Goal:
+     - Grab users attention and engagement using bright colors and bold texts.
+     - Provides easy access of necessary information and car portfolio.
+     - Give insight on what the website can to offer.
+     - Links to social media are available to give users up to date information.
 
 ### Navigation bar
 
