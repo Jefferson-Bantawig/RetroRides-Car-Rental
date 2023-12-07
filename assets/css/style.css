@@ -84,11 +84,10 @@ nav {
 /* Provides an indicator on which page is currently on screen*/
 
 #menu .active {
-    font-size: x-large;
+    background-color: #ff5c35;
     font-weight: bold;
     text-decoration: underline;
-    color: #ff5c35;
-    padding: 1px
+    color: black;
 }
 
 .register .fa-user {
@@ -972,12 +971,6 @@ footer {
         color: black;
         opacity: .8;
     }
-
-    /* Sets hover animation the same as non-active class */
-    #menu>li:hover .active {
-        padding: .3em .7em;
-    }
-
 
     #nav-toggle-label {
         display: none;

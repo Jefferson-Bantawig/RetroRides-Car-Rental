@@ -1,6 +1,6 @@
 # RetroRides Rental Service Website
 
-![Website Mock up](assets/readme/Readme-Img.png)
+![Website Mock up](assets/readme/readme-img.png)
 
 # Purpose
 This Project is a static Vintage car rental website made for people who wish to relive the golden age of Automobiles. It is a rental service made for people who are planning a wedding, special event, or car enthusaist alike. Retro Rides gives a diverse fleet of vintage cars to choose from to suit your style.
@@ -26,21 +26,20 @@ ____
     - Get a small introduction to the site through the landing page.
     - Easily navigate the site and access necessary content.
     - Find available selection of cars for rent.
-    - Use the search bar to find the ideal model available.
+    - Enquire the vehicle of interest by filling up the form box.
     - Read about the services that the site has to offer as well as reviews of previous customers.
     - Access necessary information with regards to any questions about the site through the contact us section.
     - Find the address and social media links of the site from the footer section.
-    - Join a community of people that have the same interest by Registering and logging in to the website.
 
-    ### All users will also be able to access the website in smartphones and tablet screens.
+### All users will also be able to access the website in smartphones and tablet screens.
 
 ## Structure
 
 ### Navigation bar
 
     - Positioned at the top of the page, contains the website logo on the left hand side, that directs the user to the home page when clicked.
-    - On the right hand side are the the links to the other sections of the website such as "Services", "Contact us" and "Log in" sections.
-    - The log in link, contains a user icon to indicated to the user that this section is where they can register and log in. 
+    - On the right hand side are the the links to the other sections of the website such as "Services", "Help" and "Contact Us" sections.
+    - The user will be able to see which page is currently active. The active page is highlighted in the nav bar with an orange background color and rounded padding.
   
     ![Navigation bar on large screens](assets/readme/nav-bar-large.png) ---> ![Navigation bar on small screens](assets/readme/nav-bar-small.png)
     
