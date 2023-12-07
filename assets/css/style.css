@@ -421,6 +421,16 @@ span {
     padding: 1rem 0;
 }
 
+.enquire-button {
+    background-color: #ff5c35;
+    padding: .8em 3em;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 4px 5px black;
+}
+
 /* Services Section */
 #services-container {
     display: flex;
@@ -911,7 +921,7 @@ footer {
     /* Log in Section */
 
     #contact-container {
-        background: url(../images/background-image4.jpg) left center / cover;
+        background: url(../images/background-image4.webp) left center / cover;
     }
 
 }
