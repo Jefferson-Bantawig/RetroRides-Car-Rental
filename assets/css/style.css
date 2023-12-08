@@ -166,18 +166,28 @@ span {
 }
 
 #apps-container {
-    width: 20ch;
+    display: flex;
+    flex-direction: column;
+}
+
+#apps-container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    flex-wrap: wrap;
+    align-self: center;
+    transition: .15s;
+    cursor: pointer;
 }
 
 .apps {
-    padding: 1em 2em;
     background-color: #ff5c35;
-    border: none;
+    margin: .5em;
+    padding: .5em;
     border-radius: 20px;
+    text-decoration: none;
     color: black;
-    transition: .15s;
-    cursor: pointer;
-    margin: .3rem;
 
 }
 
