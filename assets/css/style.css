@@ -435,12 +435,18 @@ span {
 
 .enquire-button {
     background-color: #ff5c35;
-    padding: .8em 3em;
+    padding: .5em 1.5em;
     border-radius: 5px;
     border: 1px solid black;
     color: white;
     cursor: pointer;
     box-shadow: 1px 4px 5px black;
+    text-decoration: none;
+    transition: .15s;
+}
+
+.enquire-button:hover {
+    opacity: 0.8;
 }
 
 /* Services Section */
