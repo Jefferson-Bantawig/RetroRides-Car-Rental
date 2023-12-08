@@ -56,7 +56,7 @@ ____
   - On the right hand side are the the links to the other sections of the website such as "Services", "Help" and "Contact Us" sections.
   - The user will be able to see which page is currently active. The active page is highlighted in the nav bar with an orange background color and rounded padding.
 
-  ![Navigation bar on large screens](assets/readme/nav-bar-large.png) <br> [Navigation bar on small screens](assets/readme/nav-bar-small.png)
+  ![Navigation bar on large screens](assets/readme/nav-bar-large.png) <br> ![Navigation bar on small screens](assets/readme/nav-bar-small.png)
   
   - When viewed on smaller screens, the menus texts changes to a clickable "burger" icon, in order to conserve space.
   - The logo and "burger" icon also swaps position to provide better access and functionality when using smaller screens.
