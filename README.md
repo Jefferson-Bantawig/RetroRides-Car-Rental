@@ -74,18 +74,18 @@ ____
 
 ### Car Fill up box
   - The fill up box provides 3 inputs that the users are required to fill.
-  - These inputs will aid the users to quickly find the car that they have in mind, if it is available.
-  - This will help users to manage booking as they can provide information on when to pick up and return the car of their choice.
+  - These inputs will prompt the user to fill out 3 boxes and provide details of what they are interested in.
+  - Filling up the box will inform the website what the user is looking for and its availability.
 
 ### Cars section
-  - This Section contains the all available cars for rent.
+  - This Section contains the all secection of cars for rent.
   - The boxes contains the exact images of the available cars, which gives the user an idea of what the car looks like.
   - Each car box contains the name of the Car in big letters, to make it easier to the user to find what they need.
   - Inside the car boxes, contains the mileage of the car, Fuel it needs, and its transmission. All indicated by their respective icons.
-  - Below the icons, users will see the price for each car, as well as a bright orange "rent" button that captures the eyes of the user more easily.
+  - Below the icons, users will see the price for each car, as well as a bright orange "Enquire" button that captures the eyes of the user more easily.
   - These boxes are arranged in columns that changes in response to the width of the users screens. This helps to make it more pleasing to look at.
 
-### Services Section
+### Our Services Section
   - This section provides the user with information of the services that the website offers.
   - The section is design to be simple and informative, providing examples of the services in individual boxes to highlight what makes the website different from others.
   - The icons on the boxes help provide visual cues as to what the service is.
@@ -116,3 +116,18 @@ ____
   - In order to conserve space, the "Page" and "Support" section of the footer is nested inside a clickable dropdown list. 
   - A chevron icon is placed with the dropdown list to make it intuitive for the user, and provides visual cue for a dropdown button.
   - In bigger screens, the drop down button is disabled, chevron icon disappears and the whole content of the footer page is on display.
+
+## Services Page
+  - Provides boxes of information about the services Retro Rides has to offer.
+  - Gives the types of packages Retro Rides caters, and highlights what separates it from other rental sites.
+  - The "Our services" section which is also in the home page, can be seen here, as it falls under the "services" section of the website.
+  ### User Goal:
+    - Get Information of the services the site provides.
+    - Find out what sets Retro Rides apart from others.
+  ### Website Goal:
+    - To provide easy access to necessary information.
+    - Highlight the qualities that makes us different.
+    - Grab the users attention with pleasing style and design.
+  
+## Help Page
+  - Gives
