@@ -130,4 +130,6 @@ ____
    > - Grab the users attention with pleasing style and design.
   
 ## Help Page
-  - Gives
+  - Gives the user a grid view of the help section.
+  - Shows the user a selection of the most common questions that customers ask.
+  - The help section boxes links to a different part of the website that contains the answers to it's respective questions.
