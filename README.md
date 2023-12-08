@@ -130,6 +130,30 @@ ____
    > - Grab the users attention with pleasing style and design.
   
 ## Help Page
-  - Gives the user a grid view of the help section.
-  - Shows the user a selection of the most common questions that customers ask.
+  - Gives the user a grid view of the help section columns. 
+  - Shows the user a selection of the most common questions customers ask.
   - The help section boxes links to a different part of the website that contains the answers to it's respective questions.
+  ### User Goal:
+  > - Get the answers to any question the user may have.
+  > - Get in touch with a representative.
+  > - Learn how to pay and arrange booking of a car.
+  ### Website Goal:
+  > - Give users access to FAQ with ease.
+  > - A simple click will link the user to the answers they are looking for.
+
+## Contact Us Page
+  - Allows users to fill up their contact information.
+  - A text box allows the user to write down the car they want to book or any questions they want to ask.
+  ### User Goal:
+  > - Get in contact with a representative.
+  > - Check availability of preferred car and reserve booking.
+  ### Website Goal:
+  > - Allows users to write their question in great detail using the text box.
+  > - Aid users in checking availability and booking out their preferred cars.
+  > - Collects user data to allow the representative to get in touch with the user.
+
+  ___ 
+
+## Design
+
+Retro Rides is designed for car enthusiast and non-car enthusiast alike. Weather you want to experience the Golden days of automobiles or planning to have a memorable wedding, Retro Rides has got you covered. Having an extensive selection of Vintage cars, finding a rare vehicle has never been so easy. 
