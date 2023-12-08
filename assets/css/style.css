@@ -74,6 +74,8 @@ nav {
 #menu a {
     text-decoration: none;
     color: white;
+    padding: .5rem;
+    border-radius: 5px;
 }
 
 #nav-toggle:checked~nav {
@@ -88,6 +90,7 @@ nav {
     font-weight: bold;
     text-decoration: underline;
     color: black;
+
 }
 
 .register .fa-user {
