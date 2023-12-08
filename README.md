@@ -40,22 +40,23 @@ ____
   - Provides users the information they need right off the bat.
   - Feedback from previous customers gives new users a sense of trust to the website.
   ### User Goal:
-     - Understand what services website provides.
-     - View all pages and sections of the website.
-     - Navigate the website without any difficulties.
-     - Find all the selection of available cars.
+   - Understand what services website provides.
+   - View all pages and sections of the website.
+   - Navigate the website without any difficulties.
+   - Find all the selection of available cars.
+
   ### Website Goal:
-     - Grab users attention and engagement using bright colors and bold texts.
-     - Provides easy access of necessary information and car portfolio.
-     - Give insight on what the website can to offer.
-     - Links to social media are available to give users up to date information.
+   - Grab users attention and engagement using bright colors and bold texts.
+   - Provides easy access of necessary information and car portfolio.
+   - Give insight on what the website can to offer.
+   - Links to social media are available to give users up to date information.
 
 ### Navigation bar
   - Positioned at the top of the page, contains the website logo on the left hand side, that directs the user to the home page when clicked.
   - On the right hand side are the the links to the other sections of the website such as "Services", "Help" and "Contact Us" sections.
   - The user will be able to see which page is currently active. The active page is highlighted in the nav bar with an orange background color and rounded padding.
 
-  ![Navigation bar on large screens](assets/readme/nav-bar-large.png) ---> ![Navigation bar on small screens](assets/readme/nav-bar-small.png)
+  ![Navigation bar on large screens](assets/readme/nav-bar-large.png) <br> [Navigation bar on small screens](assets/readme/nav-bar-small.png)
   
   - When viewed on smaller screens, the menus texts changes to a clickable "burger" icon, in order to conserve space.
   - The logo and "burger" icon also swaps position to provide better access and functionality when using smaller screens.
@@ -66,12 +67,13 @@ ____
   - Users are given the option to download app in order to use the website more conveniently.
 
 ### Featured Cars
-  - This section provides the user with 4 of the most popular cars rented by customers.
+  - This section provides the user with 4 of the most popular cars rented by previous customers.
   - Hovering over the featured cars will reveal an overlay that pops up and gives a small feature of the car.
   - The overlay color contrast makes it easy to read the text written on it.
+  - This is deactivated on tablets and phone screens as this is intented for use with a mouse cursor.
 
-### Search Bar
-  - The search bar provides 3 inputs that the users are required to fill.
+### Car Fill up box
+  - The fill up box provides 3 inputs that the users are required to fill.
   - These inputs will aid the users to quickly find the car that they have in mind, if it is available.
   - This will help users to manage booking as they can provide information on when to pick up and return the car of their choice.
 
@@ -107,7 +109,7 @@ ____
   - Social media links can be found in this section, each with an icon of it's respective website. Using the logos of each social media website makes it look better compared to putting the website address.
   - The location of the garage is also found here just under the social media links.
 
-  ![footer section on small screens](assets/readme/footer-small.png) --> ![footer section on small screens](assets/readme/footer-large.png)
+  ![footer section on small screens](assets/readme/footer-small.png) <br> ![footer section on small screens](assets/readme/footer-large.png)
 
   - The design on the footer section will change depending on the screen size.
   - In small screens, the footer layout is that of a single column. Starting from the website brand, social media links, garage address then to other navigation links.
