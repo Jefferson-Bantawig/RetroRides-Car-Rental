@@ -157,3 +157,9 @@ ____
 ## Design
 
 Retro Rides is designed for car enthusiast and non-car enthusiast alike. Weather you want to experience the Golden days of automobiles or planning to have a memorable wedding, Retro Rides has got you covered. Having an extensive selection of Vintage cars, finding a rare vehicle has never been so easy. 
+
+## Color Scheme
+
+![Color Palette](assets/readme/color-palette.png)
+
+A bright and daring color palette helps that grabs the users attention. Matched with complementing accent colors, together the websites color scheme allows longing engagement of the user.
