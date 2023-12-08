@@ -40,16 +40,16 @@ ____
   - Provides users the information they need right off the bat.
   - Feedback from previous customers gives new users a sense of trust to the website.
   ### User Goal:
-   - Understand what services website provides.
-   - View all pages and sections of the website.
-   - Navigate the website without any difficulties.
-   - Find all the selection of available cars.
+   > - Understand what services website provides.
+   > - View all pages and sections of the website.
+   > - Navigate the website without any difficulties.
+   > - Find all the selection of available cars.
 
   ### Website Goal:
-   - Grab users attention and engagement using bright colors and bold texts.
-   - Provides easy access of necessary information and car portfolio.
-   - Give insight on what the website can to offer.
-   - Links to social media are available to give users up to date information.
+   > - Grab users attention and engagement using bright colors and bold texts.
+   > - Provides easy access of necessary information and car portfolio.
+   > - Give insight on what the website can to offer.
+   > - Links to social media are available to give users up to date information.
 
 ### Navigation bar
   - Positioned at the top of the page, contains the website logo on the left hand side, that directs the user to the home page when clicked.
@@ -122,12 +122,12 @@ ____
   - Gives the types of packages Retro Rides caters, and highlights what separates it from other rental sites.
   - The "Our services" section which is also in the home page, can be seen here, as it falls under the "services" section of the website.
   ### User Goal:
-    - Get Information of the services the site provides.
-    - Find out what sets Retro Rides apart from others.
+   > - Get Information of the services the site provides.
+   > - Find out what sets Retro Rides apart from others.
   ### Website Goal:
-    - To provide easy access to necessary information.
-    - Highlight the qualities that makes us different.
-    - Grab the users attention with pleasing style and design.
+   > - To provide easy access to necessary information.
+   > - Highlight the qualities that makes us different.
+   > - Grab the users attention with pleasing style and design.
   
 ## Help Page
   - Gives
