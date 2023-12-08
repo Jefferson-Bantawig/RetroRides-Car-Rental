@@ -904,6 +904,32 @@ footer {
 
 
 
+/* Terms and Conditions Simple Styling */
+#terms-container {
+    background-image: -webkit-linear-gradient(-30deg, rgb(224, 223, 223) 85%, #ff5c35 50%);
+}
+
+#terms-container h1 {
+    text-align: center;
+    margin: 2rem;
+    color: #ff5c35;
+}
+
+#terms-container h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+#terms-container h3 {
+    margin: 1rem;
+}
+
+#terms-container p {
+    padding: 1.5rem;
+}
+
+
+
 
 
 /* Media Query for screens 320px and above */
