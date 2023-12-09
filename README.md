@@ -174,9 +174,9 @@ Makes text easily readable for the users.
 Gives a great accent color that separates the header and footer from the main section.
 > ![Silver](assets/readme/silver.png) #c4c4c4 (Our Review and About us Background color and Featured car background color);
 Gives a different background color to isolates the review and about us section.
->![Platinum](assets/readme/Platinum.png) #e0dfdf (Car booking box Background color);
+> ![Platinum](assets/readme/Platinum.png) #e0dfdf (Car booking box Background color);
 Adds separation to Car booking box.
->![Snow](assets/readme/Snow.png) #f7f2f2 (Main heading Background color);
+> ![Snow](assets/readme/Snow.png) #f7f2f2 (Main heading Background color);
 Adds importance and styling to the main headings of the page.
 
 ### Typography
@@ -185,3 +185,7 @@ Adds importance and styling to the main headings of the page.
 ### Images
 
 The image for this project were taken from [Unsplash](https://unsplash.com/). Each Image were thoroughly reviewed and selected to match the websites theme and design.
+
+### Visual Effects
+
+### Shadows
