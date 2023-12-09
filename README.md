@@ -178,3 +178,10 @@ Gives a different background color to isolates the review and about us section.
 Adds separation to Car booking box.
 >![Snow](assets/readme/Snow.png) #f7f2f2 (Main heading Background color);
 Adds importance and styling to the main headings of the page.
+
+### Typography
+[Roboto](https://fonts.google.com/?query=roboto) was chosen as the sole font style, as it is pleasing and easy to read. This also provides uniformity of the site.
+
+### Images
+
+The image for this project were taken from [Unsplash](https://unsplash.com/). Each Image were thoroughly reviewed and selected to match the websites theme and design.
