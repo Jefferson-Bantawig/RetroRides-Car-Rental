@@ -162,3 +162,8 @@ Retro Rides is designed for car enthusiast and non-car enthusiast alike. Weather
 ![Color Palette](assets/readme/color-palette.png)
 
 A bright and daring color palette helps that grabs the users attention. Matched with complementing accent colors, together the websites color scheme allows longer user engagement.
+
+### ** Tomato orange **
+Represents enthusiasm energy and vibrance. The main color theme of the site, helps to grab users attention and maintain engagement.
+> ![Tomato orange](assets/readme/tomato.png) #ff5c35 (Main accent color of background, main heading colors, Background colors for boxes and buttons);
+> ![White](assets/readme/white.png) #ffffff (Main Background color);
