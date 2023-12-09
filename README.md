@@ -161,4 +161,4 @@ Retro Rides is designed for car enthusiast and non-car enthusiast alike. Weather
 
 ![Color Palette](assets/readme/color-palette.png)
 
-A bright and daring color palette helps that grabs the users attention. Matched with complementing accent colors, together the websites color scheme allows longing engagement of the user.
+A bright and daring color palette helps that grabs the users attention. Matched with complementing accent colors, together the websites color scheme allows longer user engagement.

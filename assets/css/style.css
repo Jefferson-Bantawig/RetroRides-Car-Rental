@@ -282,10 +282,25 @@ span {
 
 #search-bar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 2rem;
-
 }
+
+#search-bar>h3 {
+    padding: 2rem;
+    font-size: 3rem;
+    color: #ff5c35;
+    width: 90%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(247, 242, 242);
+    margin: 2rem 0;
+}
+
+
 
 #search-container {
     width: 80%;
