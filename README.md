@@ -163,7 +163,18 @@ Retro Rides is designed for car enthusiast and non-car enthusiast alike. Weather
 
 A bright and daring color palette helps that grabs the users attention. Matched with complementing accent colors, together the websites color scheme allows longer user engagement.
 
-### ** Tomato orange **
-Represents enthusiasm energy and vibrance. The main color theme of the site, helps to grab users attention and maintain engagement.
+### ** Background Colors **
 > ![Tomato orange](assets/readme/tomato.png) #ff5c35 (Main accent color of background, main heading colors, Background colors for boxes and buttons);
+Represents enthusiasm energy and vibrance. The main color theme of the site, helps to grab users attention and maintain engagement.
 > ![White](assets/readme/white.png) #ffffff (Main Background color);
+Helps to complement the main accent color and helps it pop more.
+> ![Black](assets/readme/black.png) #000000 (Default Text color);
+Makes text easily readable for the users.
+> ![Jet grey](assets/readme/Jet.png) #292929 (Header and footer Background color);
+Gives a great accent color that separates the header and footer from the main section.
+> ![Silver](assets/readme/silver.png) #c4c4c4 (Our Review and About us Background color and Featured car background color);
+Gives a different background color to isolates the review and about us section.
+>![Platinum](assets/readme/Platinum.png) #e0dfdf (Car booking box Background color);
+Adds separation to Car booking box.
+>![Snow](assets/readme/Snow.png) #f7f2f2 (Main heading Background color);
+Adds importance and styling to the main headings of the page.
