@@ -189,3 +189,10 @@ The image for this project were taken from [Unsplash](https://unsplash.com/). Ea
 ### Visual Effects
 
 ### Shadows
+The main section of the website is contained inside boxes, In order to make this more profound and noticeable, shadows have been added to these boxes to make them stand out and draw the eyes of the user.
+
+### Overlay
+The Featured car section highlights the most popular cars in the portfolio. To give this a bit of emphasis, an overlay has been added to each of the car sections. As the user hovers on the car, an overlay containing the name of the car and a small paragraph about its features will show up in a smooth transition. This feature makes it more interactive and engaging. As this feature is designed to use with a mouse, it is disabled for tablets and mobile devices.
+
+### Links
+The website is packed of information. It is important that the users can navigate through the site without any struggle, thus steps were taken to make sure all the links in the website work properly. Clicking on the links and buttons will link the user to the appropriate page and open up a new tab, this is done so the user does not lose the page they were in before.
