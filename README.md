@@ -19,17 +19,16 @@ ____
 
 # UX Design
 
-## User Experience
-### First time users will be able to:
-  - See at first glance what the main purpose of the site.
-  - Appreciate the eye-catching design of the website's landing page.
-  - Get a small introduction to the site through the landing page.
-  - Easily navigate the site and access necessary content.
-  - Find available selection of cars for rent.
-  - Enquire the vehicle of interest by filling up the form box.
-  - Read about the services that the site has to offer as well as reviews of previous customers.
-  - Access necessary information with regards to any questions about the site through the contact us section.
-  - Find the address and social media links of the site from the footer section.
+## User Stories
+### As a first time user:
+  - I want to have a visually pleasing experience.
+  - I want to have an ituitive and easy to use website.
+  - I want to immediately get an idea of the purpose of the website.
+  - I want to easily navigate the site and access necessary content.
+  - I want to find available selection of cars for rent.
+  - I want to read about the services that the site has to offer as well as reviews of previous customers.
+  - I want to get access necessary information with regards to any questions about the site through the contact us section.
+  - I want to get in contact with a sales representative without any hassle.
 
 ### All users will also be able to access the website in smartphones and tablet screens.
 
