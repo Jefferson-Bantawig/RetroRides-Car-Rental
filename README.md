@@ -54,9 +54,6 @@ ____
   - Positioned at the top of the page, contains the website logo on the left hand side, that directs the user to the home page when clicked.
   - On the right hand side are the the links to the other sections of the website such as "Services", "Help" and "Contact Us" sections.
   - The user will be able to see which page is currently active. The active page is highlighted in the nav bar with an orange background color and rounded padding.
-
-  ![Navigation bar on large screens](assets/readme/nav-bar-large.png) <br> ![Navigation bar on small screens](assets/readme/nav-bar-small.png)
-  
   - When viewed on smaller screens, the menus texts changes to a clickable "burger" icon, in order to conserve space.
   - The logo and "burger" icon also swaps position to provide better access and functionality when using smaller screens.
 
@@ -195,4 +192,20 @@ The main section of the website is contained inside boxes, In order to make this
 The Featured car section highlights the most popular cars in the portfolio. To give this a bit of emphasis, an overlay has been added to each of the car sections. As the user hovers on the car, an overlay containing the name of the car and a small paragraph about its features will show up in a smooth transition. This feature makes it more interactive and engaging. As this feature is designed to use with a mouse, it is disabled for tablets and mobile devices.
 
 ### Links
-The website is packed of information. It is important that the users can navigate through the site without any struggle, thus steps were taken to make sure all the links in the website work properly. Clicking on the links and buttons will link the user to the appropriate page and open up a new tab, this is done so the user does not lose the page they were in before.
+The website is packed of information. It is important that the users can navigate through the site without any struggle, thus steps were taken to make sure all the links in the website work properly. Clicking on the links and buttons will open a new tab directing it to the appropriate page, this is done so the user does not lose the page they were in before.
+
+### Nav Bar Effects
+The nav bar contains a logo, clicking this will redirect the user to the home page. To make the nav bar more interactive, a hover effect has been added. Hovering on the headings on the nav bar will trigger it's background color to change. The background color of the current page will remain highlighted on the nav bar. This gives a sense of direction informing the user what section of the website they are currently on.
+
+____
+
+# Features
+ **Navigation Bar**
+   ![Navigation bar on large screens](assets/readme/nav-bar-large.png) <br> ![Navigation bar on small screens](assets/readme/nav-bar-small.png) ![Hamburger Menu](assets/readme/hamburger-menu.png)
+
+The nav bar contains a logo on the left hand side, and webpage sections Home, Services, Help, and Contact Us on the right hand side. On smaller screens the sections is contained inside a hamburger menu. The location of the logo will transfer to the right side with the hamburger menu no being on the left side. This makes the design more ergonomic for phone users. The nav bar will stick to the top of the users screen at all times in all of the pages.
+
+ **Hero Section** 
+![Hero Section](assets/readme/Hero-section.png)
+
+The Hero section gives eye catching design with the bright orange color to draw the users eyes, paired with a high quality image of a vintage car. This gives an impactful first impression to the user. The brand of the site "Retro Rides" is styled with a big and colorful font to give it importance. A small paragraph of introduction is given under the main heading to give the user an idea of the service it is offering. At the very bottom of the hero section are 3 clickable links which directs the user to the app store, google store and Services page.
