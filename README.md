@@ -209,3 +209,38 @@ The nav bar contains a logo on the left hand side, and webpage sections Home, Se
 ![Hero Section](assets/readme/Hero-section.png)
 
 The Hero section gives eye catching design with the bright orange color to draw the users eyes, paired with a high quality image of a vintage car. This gives an impactful first impression to the user. The brand of the site "Retro Rides" is styled with a big and colorful font to give it importance. A small paragraph of introduction is given under the main heading to give the user an idea of the service it is offering. At the very bottom of the hero section are 3 clickable links which directs the user to the app store, google store and Services page.
+
+ **Featured Cars**
+![Featured Cars Section](assets/readme/Featured-cars.png)
+
+The featured cars section gives the user and idea of the most common cars rented. It highlights 4 of the most popular cars users go for. Whenever a car is hovered, an overlay pops up smoothly revealing a small paragraph that gives an inroduction of the car. This overlay design makes for an interactive experience.
+
+ **Car Fill-up Box**
+ ![Fill up box](assets/readme/Car-fill-up.png)
+
+The Fill up box allows users to select the make and specific model of the car they are interested in. The users can use the fill up box to provide information such as the preferred car make, why they are interested in the car, and when they want to use the car.
+
+ **Cars Section**
+ ![Cars Section](assets/readme/Cars-section.png)
+
+ The cars section shows the user the entire portfolio of cars available. A grid of columns allows the users to see the image of the actual car they can rent. Under the images contains the year and name of the car. Icons are used intuitively to display the mileage, type of fuel and Transmission of the car. The Enquire button is styled to follow the color scheme of the website, hovering on the button changes its opacity to make it interactive, clicking on the button will direct the user to the contact us page.
+
+ **Our Services** 
+ ![Our Services](assets/readme/our-services.png)
+ 
+ Our services section is designed to capture the attention of users. The bright colored box highlights the qualities that separates Retro Rides from other rental websites. The responsive design keeps its pleasing to look at in whatever screen used.
+
+ **Our Reviews**
+ ![Reviews](assets/readme/review-section.png)
+
+ The review section shares the stories of previous satisfied customers, this shows the users that Retro Rides gives reliable and satifactory services to its users. The section shows a smiling image of the reviewer and is styled to aesthetically please the eyes.
+
+**About Us** 
+![About Us](assets/readme/about-us.png)
+
+The About us section introduces the users to Retro Rides and their passion for vintage cars. It shows the enthusiasm and love for cars and their service to their customers.
+
+**Footer**
+![Footer](assets/readme/footer-large.png)
+
+The Footer section is found at the very bottom part of all the pages. It follows the color scheme of the header and contains all the necessary links to the most common sections of the website, from social media links, address, Page column where the most common sections of the page is linked to, and the Support column where users can find links to all resources to help them with any queries.
