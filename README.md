@@ -244,3 +244,12 @@ The About us section introduces the users to Retro Rides and their passion for v
 ![Footer](assets/readme/footer-large.png)
 
 The Footer section is found at the very bottom part of all the pages. It follows the color scheme of the header and contains all the necessary links to the most common sections of the website, from social media links, address, Page column where the most common sections of the page is linked to, and the Support column where users can find links to all resources to help them with any queries.
+
+**Services Page** 
+![Services Page](assets/readme/List-of-Services.PNG) <br> ![Services Text](assets/readme/Services-Circle.PNG) <br> ![Our Services](assets/readme/our-services.png)
+
+The Services section provides the user with the list of services offered, from standard rentals to weddings and photoshoots. The color scheme and design of the boxes is similar to the design of the website. 
+
+A circular image of 2 employees gives a nice aesthetic design to the page.
+
+The our services section can also be found in this page. This is to contain all services related sections into one page.
