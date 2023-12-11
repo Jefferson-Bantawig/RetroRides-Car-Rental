@@ -294,3 +294,22 @@ The Fill up form in the Home page, and the contact us form in the Contact us pag
  - [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
  - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
 
+
+___
+
+# Testing and Validation
+
+The website was tested using the Chrome Developer tool and through manual testing. Links and buttons were individually checked multiple times.
+
+| Test               | Desired Outcome                                             | Result |
+|--------------------|-------------------------------------------------------------|--------|
+| Car Logo           | Redirects page to Home                                      | Pass   |
+| Navigation bar     | Redirects to different pages of the website                 | Pass   |
+| Navigation Hover   | Background color and padding appears when hovering          | Pass   |
+| Overlay            | Overlay appears when hovering on Featured car               | Pass   |
+| Fill Up Form       | Stores Information into Form Dump                           | Pass   |
+| Enquire Button     | Opens new tab to Contact us section                         | Pass   |
+| Social Media Icons | Links to social media site                                  | Pass   |
+| Footer Links       | Opens new tab to respective links                           | Pass   |
+| Explore Help Page  | Hovering changes opacity, and Correct links open in new tab | Pass   |
+| Contact Us Button  | Sends the data entered to Form dump                         | Pass   |
