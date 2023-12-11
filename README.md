@@ -253,3 +253,27 @@ The Services section provides the user with the list of services offered, from s
 A circular image of 2 employees gives a nice aesthetic design to the page.
 
 The our services section can also be found in this page. This is to contain all services related sections into one page.
+
+**Help Page**
+![Help Page](assets/readme/Help-page.PNG)
+
+This help pages contains a grid of clickable icons for the user to use. The boxes presents the most common questions the user can have. Each boxes links to another page that opens in a new tab to make it easier for the user.
+
+**Contact Us Page**
+![Contact Us Page](assets/readme/Contact-us-page.PNG)
+
+The contact us page provides an aesthetically looking page with a beautiful black and white background image that complements the colors of the form column. 
+
+In this page, the user can fill in their details and book their car or ask any questions they may have.
+The data given here will be sent to a form dump. In future with the use of Javascript or Python, the data can be stored and utilized to give a better user experience.
+
+## Responsive Design
+
+The webpage is designed to be responsive. Using flexbox and grid, the layout changes when viewed in different screen sizes. The design of the site was first initiated on a 280x653 resolution which is one of the more common resolutions for smartphones. The most clearly noticeable difference between small and large screens is the hero image on the landing screen. It was decided to not add the large hero image on smaller screen for real estate purposes. The responsive design was also tested in other common screen resolutions such as 320px for mobile, 375px, 425px, 768px, 1024px and 1440px. Each is resolution designed to look balanced and aesthetically pleasing to all devices. Another noticeable difference is the overlay feature, which is only active for laptop screens and above, as this feature needs a mouse cursor to activate.
+
+## Feature Considerations
+The Fill up form in the Home page, and the contact us form in the Contact us page, is sent to a form dump. The data in this filled in these will not be stored or utilized without the use of JavaScript or python. In the future, this can be an added feature to improve the user experience.
+
+# Technologies 
+ - HTML for the structure of the website.
+ - CSS to add design and styling to the website
