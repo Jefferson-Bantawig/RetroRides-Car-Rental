@@ -149,6 +149,11 @@ ____
   > - Collects user data to allow the representative to get in touch with the user.
 
   ___ 
+## Wireframe
+![Wireframe Full size](assets/readme/Retrorides-full%20size-wireframe.png) ![Wireframe small size](assets/readme/Retrorides-small-size-wireframe.png)
+
+
+___
 
 ## Design
 
@@ -276,4 +281,16 @@ The Fill up form in the Home page, and the contact us form in the Contact us pag
 
 # Technologies 
  - HTML for the structure of the website.
- - CSS to add design and styling to the website
+ - CSS to add design and styling to the website.
+ - [Gitpod](https://gitpod.io/) IDE for developing website.
+ - [Github](https://GitHub.com/) to host the source code and deploy and host live site and for version control.
+ - [FontAwesome](https://fontawesome.com/) Icons.
+ - [Google Fonts](https://fonts.google.com/) For Typography.
+ - [Chrome Developer Tool](https://developers.google.com/web/tools/chrome-devtools) For debugging and testing layouts.
+ - [Convertio](https://convertio.co/jpg-webp/) To convert jpeg files to webp for better web optimization.
+ - [Icons8](https://icons8.com/) For making the website favicon.
+ - [Coolors](https://coolors.co/) For choosing website color palette.
+ - [Balsamiq](https://balsamiq.com/) For Wireframe design.
+ - [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
+ - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+
