@@ -150,7 +150,7 @@ ____
 
   ___ 
 ## Wireframe
-![Wireframe Full size](assets/readme/Retrorides-full%20size-wireframe.png) ![Wireframe small size](assets/readme/Retrorides-small-size-wireframe.png)
+![Wireframe Full size](assets/readme/Retrorides-full%20size-wireframe.png | width=200) ![Wireframe small size](assets/readme/Retrorides-small-size-wireframe.png | width=200)
 
 
 ___
@@ -166,19 +166,19 @@ Retro Rides is designed for car enthusiast and non-car enthusiast alike. Weather
 A bright and daring color palette helps that grabs the users attention. Matched with complementing accent colors, together the websites color scheme allows longer user engagement.
 
 ### ** Background Colors **
-> ![Tomato orange](assets/readme/tomato.png) #ff5c35 (Main accent color of background, main heading colors, Background colors for boxes and buttons);
+> ![Tomato orange](assets/readme/tomato.png) <br> **#ff5c35** (Main accent color of background, main heading colors, Background colors for boxes and buttons);
 Represents enthusiasm energy and vibrance. The main color theme of the site, helps to grab users attention and maintain engagement.
-> ![White](assets/readme/white.png) #ffffff (Main Background color);
+> ![White](assets/readme/white.png) <br> **#ffffff** (Main Background color);
 Helps to complement the main accent color and helps it pop more.
-> ![Black](assets/readme/black.png) #000000 (Default Text color);
+> ![Black](assets/readme/black.png) <br> **#000000** (Default Text color);
 Makes text easily readable for the users.
-> ![Jet grey](assets/readme/Jet.png) #292929 (Header and footer Background color);
+> ![Jet grey](assets/readme/Jet.png) <br> **#292929** (Header and footer Background color);
 Gives a great accent color that separates the header and footer from the main section.
-> ![Silver](assets/readme/silver.png) #c4c4c4 (Our Review and About us Background color and Featured car background color);
+> ![Silver](assets/readme/silver.png) <br> **#c4c4c4** (Our Review and About us Background color and Featured car background color);
 Gives a different background color to isolates the review and about us section.
-> ![Platinum](assets/readme/Platinum.png) #e0dfdf (Car booking box Background color);
+> ![Platinum](assets/readme/Platinum.png) <br> **#e0dfdf** (Car booking box Background color);
 Adds separation to Car booking box.
-> ![Snow](assets/readme/Snow.png) #f7f2f2 (Main heading Background color);
+> ![Snow](assets/readme/Snow.png) <br> **#f7f2f2** (Main heading Background color);
 Adds importance and styling to the main headings of the page.
 
 ### Typography
@@ -205,52 +205,57 @@ The nav bar contains a logo, clicking this will redirect the user to the home pa
 ____
 
 # Features
- **Navigation Bar**
+ ## Navigation Bar 
    ![Navigation bar on large screens](assets/readme/nav-bar-large.png) <br> ![Navigation bar on small screens](assets/readme/nav-bar-small.png) ![Hamburger Menu](assets/readme/hamburger-menu.png)
 
 The nav bar contains a logo on the left hand side, and webpage sections Home, Services, Help, and Contact Us on the right hand side. On smaller screens the sections is contained inside a hamburger menu. The location of the logo will transfer to the right side with the hamburger menu no being on the left side. This makes the design more ergonomic for phone users. The nav bar will stick to the top of the users screen at all times in all of the pages.
 
- **Hero Section** 
+ ## Hero Section 
 ![Hero Section](assets/readme/Hero-section.png)
 
 The Hero section gives eye catching design with the bright orange color to draw the users eyes, paired with a high quality image of a vintage car. This gives an impactful first impression to the user. The brand of the site "Retro Rides" is styled with a big and colorful font to give it importance. A small paragraph of introduction is given under the main heading to give the user an idea of the service it is offering. At the very bottom of the hero section are 3 clickable links which directs the user to the app store, google store and Services page.
 
- **Featured Cars**
+## Featured Cars
+
 ![Featured Cars Section](assets/readme/Featured-cars.png)
 
 The featured cars section gives the user and idea of the most common cars rented. It highlights 4 of the most popular cars users go for. Whenever a car is hovered, an overlay pops up smoothly revealing a small paragraph that gives an inroduction of the car. This overlay design makes for an interactive experience.
 
- **Car Fill-up Box**
+ ## Car Fill-up Box
  ![Fill up box](assets/readme/Car-fill-up.png)
 
 The Fill up box allows users to select the make and specific model of the car they are interested in. The users can use the fill up box to provide information such as the preferred car make, why they are interested in the car, and when they want to use the car.
 
- **Cars Section**
+## Cars Section
+
  ![Cars Section](assets/readme/Cars-section.png)
 
  The cars section shows the user the entire portfolio of cars available. A grid of columns allows the users to see the image of the actual car they can rent. Under the images contains the year and name of the car. Icons are used intuitively to display the mileage, type of fuel and Transmission of the car. The Enquire button is styled to follow the color scheme of the website, hovering on the button changes its opacity to make it interactive, clicking on the button will direct the user to the contact us page.
 
- **Our Services** 
+ ## Our Services 
  ![Our Services](assets/readme/our-services.png)
  
  Our services section is designed to capture the attention of users. The bright colored box highlights the qualities that separates Retro Rides from other rental websites. The responsive design keeps its pleasing to look at in whatever screen used.
 
- **Our Reviews**
+## Our Reviews
+
  ![Reviews](assets/readme/review-section.png)
 
  The review section shares the stories of previous satisfied customers, this shows the users that Retro Rides gives reliable and satifactory services to its users. The section shows a smiling image of the reviewer and is styled to aesthetically please the eyes.
 
-**About Us** 
+## About Us
+
 ![About Us](assets/readme/about-us.png)
 
 The About us section introduces the users to Retro Rides and their passion for vintage cars. It shows the enthusiasm and love for cars and their service to their customers.
 
-**Footer**
+## Footer
 ![Footer](assets/readme/footer-large.png)
 
 The Footer section is found at the very bottom part of all the pages. It follows the color scheme of the header and contains all the necessary links to the most common sections of the website, from social media links, address, Page column where the most common sections of the page is linked to, and the Support column where users can find links to all resources to help them with any queries.
 
-**Services Page** 
+## Services Page
+
 ![Services Page](assets/readme/List-of-Services.PNG) <br> ![Services Text](assets/readme/Services-Circle.PNG) <br> ![Our Services](assets/readme/our-services.png)
 
 The Services section provides the user with the list of services offered, from standard rentals to weddings and photoshoots. The color scheme and design of the boxes is similar to the design of the website. 
@@ -259,12 +264,14 @@ A circular image of 2 employees gives a nice aesthetic design to the page.
 
 The our services section can also be found in this page. This is to contain all services related sections into one page.
 
-**Help Page**
+## Help Page
+
 ![Help Page](assets/readme/Help-page.PNG)
 
 This help pages contains a grid of clickable icons for the user to use. The boxes presents the most common questions the user can have. Each boxes links to another page that opens in a new tab to make it easier for the user.
 
-**Contact Us Page**
+## Contact Us Page
+
 ![Contact Us Page](assets/readme/Contact-us-page.PNG)
 
 The contact us page provides an aesthetically looking page with a beautiful black and white background image that complements the colors of the form column. 
@@ -283,6 +290,7 @@ The Fill up form in the Home page, and the contact us form in the Contact us pag
  - HTML for the structure of the website.
  - CSS to add design and styling to the website.
  - Google lighthouse to test for acessibility and loading of the webpage.
+ - Chatgpt for formulating text content used for the site.
  - [Gitpod](https://gitpod.io/) IDE for developing website.
  - [Github](https://GitHub.com/) to host the source code and deploy and host live site and for version control.
  - [FontAwesome](https://fontawesome.com/) Icons.
@@ -340,6 +348,7 @@ The website was tested using the Chrome Developer tool and through manual testin
 11. Clicked the link under GitHub pages.
 
 # How to Clone the repository
+
 1. Go to the GitHub repository Jefferson-Bantawig/RetroRides-Car-Rental.
 2. Click the code dropdown menu highlighted in green.
 3. Copy the link under the HTTPS heading.
@@ -347,11 +356,20 @@ The website was tested using the Chrome Developer tool and through manual testin
 5. Type in "git clone" and paste the copied link.
 6. You will now have a clone of this repository.
 
-# Credits and Acknowledgements
-I would like to thank my Mentor Ronan McClelland for his guidance on making my first project, he was kind enough to squeeze our meetings into his busy schedule. 
+# Acknowledgements
 
-I would like to thank the slack community in helping me with any questions that I had.
+- I would like to thank my Mentor Ronan McClelland for his guidance on making my first project, he was kind enough to squeeze our meetings into his busy schedule. 
 
-I would like to say thank you to the tutors at codeinstitute for their patience and guidance whenever i had trouble understanding something.
+- I would like to thank the slack community in helping me with any questions that I had.
 
-I would like to give credits to the peer-code-review channel in code institute, which helped me get an idea on how to structure my readme file.
+- I would like to say thank you to the tutors at codeinstitute for their patience and guidance whenever i had trouble understanding something.
+
+- I would like to credit the peer-code-review channel in code institute, which helped me get an idea on how to structure my readme file.
+# Credits
+
+- I would like to credit unsplash.com for the high quality images used in this project.
+- I would like to credit wall.alphacoders.com for the high quality car images for this project.
+- I would like to credit help.vipcars.com for the inspiration for a grid layout on the help page.
+- I would like to credit Fahker Uddin from dribbble.com for the inspiration of making a car rental website.
+
+ 
