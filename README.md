@@ -150,13 +150,11 @@ ____
 
   ___ 
 ## Wireframe
-![Wireframe Full size](assets/readme/Retrorides-) ![Wireframe small size](assets/readme/Retrorides-small-size-wireframe.png | width=200)
 
 <img src="assets/readme/Retrorides-full size-wireframe.png" alt="Initial web design for desktop" width="200"/>
 
-<img src="assets/readme/Retrorides-small-size-wirefram.png" alt="Initial web design for mobiles" width="200"/>
+<img src="assets/readme/Retrorides-small-size-wireframe.png" alt="Initial web design for mobiles" width="200"/>
 
-___
 
 ## Design
 
@@ -169,7 +167,7 @@ Retro Rides is designed for car enthusiast and non-car enthusiast alike. Weather
 A bright and daring color palette helps that grabs the users attention. Matched with complementing accent colors, together the websites color scheme allows longer user engagement.
 
 ### ** Background Colors **
-> ![Tomato orange](assets/readme/tomato.png) c **#ff5c35** (Main accent color of background, main heading colors, Background colors for boxes and buttons);
+> ![Tomato orange](assets/readme/tomato.png) <br> **#ff5c35** (Main accent color of background, main heading colors, Background colors for boxes and buttons);
 Represents enthusiasm energy and vibrance. The main color theme of the site, helps to grab users attention and maintain engagement.<br>
 > ![White](assets/readme/white.png) <br> **#ffffff** (Main Background color);
 Helps to complement the main accent color and helps it pop more. <br>
