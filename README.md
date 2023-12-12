@@ -282,6 +282,7 @@ The Fill up form in the Home page, and the contact us form in the Contact us pag
 # Technologies 
  - HTML for the structure of the website.
  - CSS to add design and styling to the website.
+ - Google lighthouse to test for acessibility and loading of the webpage.
  - [Gitpod](https://gitpod.io/) IDE for developing website.
  - [Github](https://GitHub.com/) to host the source code and deploy and host live site and for version control.
  - [FontAwesome](https://fontawesome.com/) Icons.
@@ -313,3 +314,44 @@ The website was tested using the Chrome Developer tool and through manual testin
 | Footer Links       | Opens new tab to respective links                           | Pass   |
 | Explore Help Page  | Hovering changes opacity, and Correct links open in new tab | Pass   |
 | Contact Us Button  | Sends the data entered to Form dump                         | Pass   |
+
+
+# Problems & Bugs Encoutered
+
+ - There were a few bugs and problems that came up in the making of this code. One of the main ones was the IDE codeanywhere not working a lot of the times, in order to keep my project within the deadline, I resulted to using Vscode in order to store my code. I continued working on my project in vscode whenever Codeanywhere was down, and then pasted my code into Codeanywhere whevener it was back up and running. This is the main reason why my commits in github are so few.
+
+ - There was a bug encountered when validating application and enquire buttons on the landing page. The validator failed because my anchor element nested a button element. The remedy used for this was to get rid of the button element and style the anchor element to look like a button, which in the end passed the validator.
+
+ ___
+
+ # Deployment 
+
+ This project was deployed using GitHub, The steps I made were as follows:
+1. Logged in to GitHub.com.
+2. Selected Retrorides-Car-Rental from the repositories.
+3. Clicked settings from the subheadings in the repository. 
+4. Clicked the pages menu under the Code and automations section located on the left side of the screen.
+5. Selected "main" in the dropdown menu under the source heading.
+6. Selected "root" on the next dropdown menu.
+7. Clicked save.
+8. Waited for a few minutes and refreshed the page.
+9. Went back to my Retrorides-Car-Rental repository.
+10. Clicked Deployment tab in the right side of the page.
+11. Clicked the link under GitHub pages.
+
+# How to Clone the repository
+1. Go to the GitHub repository Jefferson-Bantawig/RetroRides-Car-Rental.
+2. Click the code dropdown menu highlighted in green.
+3. Copy the link under the HTTPS heading.
+4. Open IDE of your choice and open the terminal.
+5. Type in "git clone" and paste the copied link.
+6. You will now have a clone of this repository.
+
+# Credits and Acknowledgements
+I would like to thank my Mentor Ronan McClelland for his guidance on making my first project, he was kind enough to squeeze our meetings into his busy schedule. 
+
+I would like to thank the slack community in helping me with any questions that I had.
+
+I would like to say thank you to the tutors at codeinstitute for their patience and guidance whenever i had trouble understanding something.
+
+I would like to give credits to the peer-code-review channel in code institute, which helped me get an idea on how to structure my readme file.
