@@ -150,8 +150,11 @@ ____
 
   ___ 
 ## Wireframe
-![Wireframe Full size](assets/readme/Retrorides-full%20size-wireframe.png | width=200) ![Wireframe small size](assets/readme/Retrorides-small-size-wireframe.png | width=200)
+![Wireframe Full size](assets/readme/Retrorides-) ![Wireframe small size](assets/readme/Retrorides-small-size-wireframe.png | width=200)
 
+<img src="assets/readme/Retrorides-full size-wireframe.png" alt="Initial web design for desktop" width="200"/>
+
+<img src="assets/readme/Retrorides-small-size-wirefram.png" alt="Initial web design for mobiles" width="200"/>
 
 ___
 
@@ -166,20 +169,21 @@ Retro Rides is designed for car enthusiast and non-car enthusiast alike. Weather
 A bright and daring color palette helps that grabs the users attention. Matched with complementing accent colors, together the websites color scheme allows longer user engagement.
 
 ### ** Background Colors **
-> ![Tomato orange](assets/readme/tomato.png) <br> **#ff5c35** (Main accent color of background, main heading colors, Background colors for boxes and buttons);
-Represents enthusiasm energy and vibrance. The main color theme of the site, helps to grab users attention and maintain engagement.
+> ![Tomato orange](assets/readme/tomato.png) c **#ff5c35** (Main accent color of background, main heading colors, Background colors for boxes and buttons);
+Represents enthusiasm energy and vibrance. The main color theme of the site, helps to grab users attention and maintain engagement.<br>
 > ![White](assets/readme/white.png) <br> **#ffffff** (Main Background color);
-Helps to complement the main accent color and helps it pop more.
+Helps to complement the main accent color and helps it pop more. <br>
+
 > ![Black](assets/readme/black.png) <br> **#000000** (Default Text color);
-Makes text easily readable for the users.
+Makes text easily readable for the users. <br>
 > ![Jet grey](assets/readme/Jet.png) <br> **#292929** (Header and footer Background color);
-Gives a great accent color that separates the header and footer from the main section.
+Gives a great accent color that separates the header and footer from the main section. <br>
 > ![Silver](assets/readme/silver.png) <br> **#c4c4c4** (Our Review and About us Background color and Featured car background color);
-Gives a different background color to isolates the review and about us section.
+Gives a different background color to isolates the review and about us section. <br>
 > ![Platinum](assets/readme/Platinum.png) <br> **#e0dfdf** (Car booking box Background color);
-Adds separation to Car booking box.
+Adds separation to Car booking box. <br>
 > ![Snow](assets/readme/Snow.png) <br> **#f7f2f2** (Main heading Background color);
-Adds importance and styling to the main headings of the page.
+Adds importance and styling to the main headings of the page. <br>
 
 ### Typography
 [Roboto](https://fonts.google.com/?query=roboto) was chosen as the sole font style, as it is pleasing and easy to read. This also provides uniformity of the site.
@@ -364,7 +368,9 @@ The website was tested using the Chrome Developer tool and through manual testin
 
 - I would like to say thank you to the tutors at codeinstitute for their patience and guidance whenever i had trouble understanding something.
 
-- I would like to credit the peer-code-review channel in code institute, which helped me get an idea on how to structure my readme file.
+- I would like to thank the peer-code-review channel in code institute, which helped me get an idea on how to structure my readme file.
+- I would like to thank my girlfriend Yvy for her patience and understanding and encouragement during this course.
+
 # Credits
 
 - I would like to credit unsplash.com for the high quality images used in this project.
