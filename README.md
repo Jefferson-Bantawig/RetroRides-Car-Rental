@@ -151,9 +151,9 @@ ____
   ___ 
 ## Wireframe
 
-<img src="assets/readme/Retrorides-full size-wireframe.png" alt="Initial web design for desktop" width="300"/>
+<img src="assets/readme/Retrorides-full size-wireframe.png" alt="Initial web design for desktop" width="400"/>
 
-<img src="assets/readme/Retrorides-small-size-wireframe.png" alt="Initial web design for mobiles" width="200"/>
+<img src="assets/readme/Retrorides-small-size-wireframe.png" alt="Initial web design for mobiles" width="300"/>
 
 
 ## Design
