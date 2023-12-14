@@ -351,7 +351,8 @@ The website was tested using the Chrome Developer tool and through manual testin
     
     ![Mobile Lighthouse Result](assets/readme/services-mobile.png)
 
-    Desktop 
+    Desktop
+
     ![Desktop Lighthouse Result](assets/readme/services-desktop.png)
 
     **Help Page**
@@ -360,7 +361,8 @@ The website was tested using the Chrome Developer tool and through manual testin
     
     ![Mobile Lighthouse Result](assets/readme/help-mobile.png)
 
-    Desktop 
+    Desktop
+     
     ![Desktop Lighthouse Result](assets/readme/help-desktop.png)
 
     **Contact Us Page**
@@ -369,7 +371,8 @@ The website was tested using the Chrome Developer tool and through manual testin
     
     ![Mobile Lighthouse Result](assets/readme/contact-us-mobile.png)
 
-    Desktop  
+    Desktop
+     
     ![Desktop Lighthouse Result](assets/readme/contact-us-desktop.png)
     
     ___
