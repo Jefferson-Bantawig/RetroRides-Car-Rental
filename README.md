@@ -151,9 +151,9 @@ ____
   ___ 
 ## Wireframe
 
-<img src="assets/readme/Retrorides-full size-wireframe.png" alt="Initial web design for desktop" width="400"/>
+<img src="assets/readme/retrorides-full size-wireframe.png" alt="Initial web design for desktop" width="400"/>
 
-<img src="assets/readme/Retrorides-small-size-wireframe.png" alt="Initial web design for mobiles" width="300"/>
+<img src="assets/readme/retrorides-small-size-wireframe.png" alt="Initial web design for mobiles" width="300"/>
 
 
 ## Design
@@ -174,13 +174,13 @@ Helps to complement the main accent color and helps it pop more. <br>
 
 > ![Black](assets/readme/black.png) <br> **#000000** (Default Text color);
 Makes text easily readable for the users. <br>
-> ![Jet grey](assets/readme/Jet.png) <br> **#292929** (Header and footer Background color);
+> ![Jet grey](assets/readme/jet.png) <br> **#292929** (Header and footer Background color);
 Gives a great accent color that separates the header and footer from the main section. <br>
 > ![Silver](assets/readme/silver.png) <br> **#c4c4c4** (Our Review and About us Background color and Featured car background color);
 Gives a different background color to isolates the review and about us section. <br>
-> ![Platinum](assets/readme/Platinum.png) <br> **#e0dfdf** (Car booking box Background color);
+> ![Platinum](assets/readme/platinum.png) <br> **#e0dfdf** (Car booking box Background color);
 Adds separation to Car booking box. <br>
-> ![Snow](assets/readme/Snow.png) <br> **#f7f2f2** (Main heading Background color);
+> ![Snow](assets/readme/snow.png) <br> **#f7f2f2** (Main heading Background color);
 Adds importance and styling to the main headings of the page. <br>
 
 ### Typography
@@ -213,24 +213,24 @@ ____
 The nav bar contains a logo on the left hand side, and webpage sections Home, Services, Help, and Contact Us on the right hand side. On smaller screens the sections is contained inside a hamburger menu. The location of the logo will transfer to the right side with the hamburger menu no being on the left side. This makes the design more ergonomic for phone users. The nav bar will stick to the top of the users screen at all times in all of the pages.
 
  ## Hero Section 
-![Hero Section](assets/readme/Hero-section.png)
+![Hero Section](assets/readme/hero-section.png)
 
 The Hero section gives eye catching design with the bright orange color to draw the users eyes, paired with a high quality image of a vintage car. This gives an impactful first impression to the user. The brand of the site "Retro Rides" is styled with a big and colorful font to give it importance. A small paragraph of introduction is given under the main heading to give the user an idea of the service it is offering. At the very bottom of the hero section are 3 clickable links which directs the user to the app store, google store and Services page.
 
 ## Featured Cars
 
-![Featured Cars Section](assets/readme/Featured-cars.png)
+![Featured Cars Section](assets/readme/featured-cars.png)
 
 The featured cars section gives the user and idea of the most common cars rented. It highlights 4 of the most popular cars users go for. Whenever a car is hovered, an overlay pops up smoothly revealing a small paragraph that gives an inroduction of the car. This overlay design makes for an interactive experience.
 
  ## Car Fill-up Box
- ![Fill up box](assets/readme/Car-fill-up.png)
+ ![Fill up box](assets/readme/car-fill-up.png)
 
 The Fill up box allows users to select the make and specific model of the car they are interested in. The users can use the fill up box to provide information such as the preferred car make, why they are interested in the car, and when they want to use the car.
 
 ## Cars Section
 
- ![Cars Section](assets/readme/Cars-section.png)
+ ![Cars Section](assets/readme/cars-section.png)
 
  The cars section shows the user the entire portfolio of cars available. A grid of columns allows the users to see the image of the actual car they can rent. Under the images contains the year and name of the car. Icons are used intuitively to display the mileage, type of fuel and Transmission of the car. The Enquire button is styled to follow the color scheme of the website, hovering on the button changes its opacity to make it interactive, clicking on the button will direct the user to the contact us page.
 
@@ -258,7 +258,7 @@ The Footer section is found at the very bottom part of all the pages. It follows
 
 ## Services Page
 
-![Services Page](assets/readme/List-of-Services.PNG) <br> ![Services Text](assets/readme/Services-Circle.PNG) <br> ![Our Services](assets/readme/our-services.png)
+![Services Page](assets/readme/list-of-Services.png) <br> ![Services Text](assets/readme/services-circle.png) <br> ![Our Services](assets/readme/our-services.png)
 
 The Services section provides the user with the list of services offered, from standard rentals to weddings and photoshoots. The color scheme and design of the boxes is similar to the design of the website. 
 
@@ -268,13 +268,13 @@ The our services section can also be found in this page. This is to contain all 
 
 ## Help Page
 
-![Help Page](assets/readme/Help-page.PNG)
+![Help Page](assets/readme/help-page.png)
 
 This help pages contains a grid of clickable icons for the user to use. The boxes presents the most common questions the user can have. Each boxes links to another page that opens in a new tab to make it easier for the user.
 
 ## Contact Us Page
 
-![Contact Us Page](assets/readme/Contact-us-page.PNG)
+![Contact Us Page](assets/readme/contact-us-page.png)
 
 The contact us page provides an aesthetically looking page with a beautiful black and white background image that complements the colors of the form column. 
 
