@@ -244,6 +244,10 @@ span {
     margin-bottom: 1rem;
 }
 
+.overlay>p {
+    color: white;
+}
+
 /* Makes the Featured images the same dimensions*/
 .featured-car img {
     width: 100%;
@@ -1219,6 +1223,10 @@ footer {
         margin-bottom: 0;
         justify-content: space-evenly;
         text-align: center;
+    }
+
+    .featured-car p {
+        color: white;
     }
 
     .featured-car:hover .overlay {
