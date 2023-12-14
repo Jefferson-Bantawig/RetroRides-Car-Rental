@@ -202,7 +202,7 @@ span {
     align-self: center;
     border: 1px solid white;
     border-radius: 20px;
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(224, 223, 223);
     margin: 2rem;
 }
 
@@ -218,7 +218,7 @@ span {
 
 .featured-car {
     margin: 1rem;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(41, 41, 41);
     box-shadow: 0 0 5px black;
     width: 250px;
     display: flex;
@@ -281,7 +281,7 @@ span {
     text-align: center;
     border: 1px solid white;
     border-radius: 20px;
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(224, 223, 223);
     margin: 2rem 0;
 }
 
@@ -370,7 +370,7 @@ span {
     align-self: center;
     border: 1px solid white;
     border-radius: 20px;
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(224, 223, 223);
     margin: 2rem 0;
 }
 
@@ -742,7 +742,7 @@ span {
     align-self: center;
     border: 1px solid white;
     border-radius: 20px;
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(224, 223, 223);
     margin-bottom: 2rem;
     text-align: center;
 }
