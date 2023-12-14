@@ -31,7 +31,6 @@ header>a {
     margin: 0 1rem;
 }
 
-
 /* Navigation Section */
 
 /* header displays hamburger button on smaller screens */
@@ -51,7 +50,6 @@ header {
     padding: 0 15px;
     color: #ff5c35;
 }
-
 
 /* Only displays content when  hamburger button is clicked*/
 #nav-toggle,
@@ -90,7 +88,6 @@ nav {
     font-weight: bold;
     text-decoration: underline;
     color: black;
-
 }
 
 .register .fa-user {
@@ -98,11 +95,9 @@ nav {
     color: #ff5c35;
 }
 
-
 /* Main content */
 
 main {
-
     margin-top: 65px;
     color: black;
 }
@@ -126,7 +121,6 @@ main {
 span {
     color: #ff5c35;
     font-size: xx-large;
-
 }
 
 .welcome-text {
@@ -151,7 +145,6 @@ span {
     margin: 1rem 0;
 }
 
-
 #landing-page-img {
     width: 100%;
     margin-top: 2rem;
@@ -162,7 +155,6 @@ span {
 #landing-page-img img {
     width: 100%;
     max-width: 600px;
-
 }
 
 #apps-container {
@@ -188,13 +180,11 @@ span {
     border-radius: 20px;
     text-decoration: none;
     color: black;
-
 }
 
 .apps:hover {
     opacity: .8;
 }
-
 
 /* Main Section */
 #main-section {
@@ -215,7 +205,6 @@ span {
     background-color: rgb(247, 242, 242);
     margin: 2rem;
 }
-
 
 /* Featured cars Section */
 #featured-cars-container {
@@ -249,7 +238,6 @@ span {
     justify-content: space-around;
     text-align: center;
     margin-bottom: 2rem;
-
 }
 
 .overlay>h3 {
@@ -275,9 +263,6 @@ span {
     color: black;
 }
 
-
-
-
 /* Search Section*/
 
 #search-bar {
@@ -299,8 +284,6 @@ span {
     background-color: rgb(247, 242, 242);
     margin: 2rem 0;
 }
-
-
 
 #search-container {
     width: 80%;
@@ -370,7 +353,6 @@ span {
 }
 
 /* Our Car Options Section */
-
 
 #our-cars-container {
     background-image: -webkit-linear-gradient(-120deg, white 75%, rgb(196, 196, 196) 40%);
@@ -470,7 +452,6 @@ span {
     justify-content: space-around;
     background-color: white;
     flex-direction: column;
-
 }
 
 #services-column {
@@ -478,7 +459,6 @@ span {
     flex-wrap: wrap;
     order: 2;
     justify-content: center;
-
 }
 
 .services-box>i {
@@ -570,7 +550,6 @@ span {
 
 #list-info {
     align-self: center;
-
 }
 
 #list-info>p {
@@ -661,7 +640,6 @@ span {
     transition: .15s;
 }
 
-
 #contact-us-content a {
     text-decoration: none;
     color: black;
@@ -679,7 +657,6 @@ span {
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
 #contact-container h1 {
@@ -700,7 +677,6 @@ span {
     margin: 0 3rem 5rem 3rem;
     max-width: 450px;
     width: 95%;
-
 }
 
 #contact-column>h4 {
@@ -732,7 +708,6 @@ span {
     margin: 10px;
     padding: 10px;
 }
-
 
 #contact-button {
     margin: 2rem 0;
@@ -788,7 +763,6 @@ span {
 .review-img img {
     width: 100%;
     max-width: 400px;
-
 }
 
 .review-text {
@@ -822,7 +796,6 @@ span {
     width: 90%;
     align-self: center;
     border-radius: 20px;
-
 }
 
 #about-us-text {
@@ -852,7 +825,6 @@ span {
     /* This image will only show up in screens 1024px and above*/
 }
 
-
 /* Footer Section */
 
 footer {
@@ -864,13 +836,10 @@ footer {
     text-align: center;
 }
 
-
-
 #socials {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #socials>h2 {
@@ -935,8 +904,6 @@ footer {
     color: white;
 }
 
-
-
 /* Terms and Conditions Simple Styling */
 #terms-container {
     background-image: -webkit-linear-gradient(-30deg, rgb(224, 223, 223) 85%, #ff5c35 50%);
@@ -961,12 +928,7 @@ footer {
     padding: 1.5rem;
 }
 
-
-
-
-
 /* Media Query for screens 320px and above */
-
 
 /* This media query is needed so that in 768px screens, the featured car column is aligned with each other */
 @media screen and (min-width: 320px) {
@@ -984,10 +946,7 @@ footer {
     #contact-container {
         background: url(../images/background-image4.webp) left center / cover;
     }
-
 }
-
-
 
 /* Media Query for Screens 768px and above */
 
@@ -1055,7 +1014,6 @@ footer {
     /* displays the landing page image on bigger screens */
     #landing-page-img {
         display: block;
-
     }
 
     #return-date-div {
@@ -1080,7 +1038,6 @@ footer {
         font-size: 1.5rem;
 
     }
-
 
     .search-button {
         margin-top: 2rem;
@@ -1117,7 +1074,6 @@ footer {
         padding-left: 60px;
     }
 
-
     /* Review Section */
     #review-container {
         display: flex;
@@ -1130,7 +1086,6 @@ footer {
         display: flex;
         width: 80%;
         align-items: center;
-
     }
 
     .review-img img {
@@ -1145,7 +1100,6 @@ footer {
 
     .man {
         order: 2;
-
     }
 
     .man~.review-text h3 {
@@ -1155,7 +1109,6 @@ footer {
     .man img {
         border-radius: 50px 0 50px 0px;
     }
-
 
     /* Footer Section */
     #footer-container {
@@ -1192,19 +1145,13 @@ footer {
     #socials-icons {
         cursor: pointer;
     }
-
-
 }
-
-
-
 
 /* Media Query for screens 1024px and above */
 
 @media screen and (min-width: 1024px) {
     #landing-page {
         flex-direction: row;
-
     }
 
     /* Sets landing text to 50% of viewport width*/
@@ -1221,8 +1168,6 @@ footer {
         max-width: 100%;
         margin: 0;
     }
-
-
 
     /* Services Section */
 
@@ -1244,8 +1189,6 @@ footer {
     #contact-us-content>div:hover {
         opacity: 0.8
     }
-
-
 
     /* styling for hover animation */
     .featured-car-box {
@@ -1308,7 +1251,6 @@ footer {
         grid-template-columns: 250px 250px 250px;
     }
 }
-
 
 @media screen and (min-width: 2000px) {
     #landing-text>h1 {
