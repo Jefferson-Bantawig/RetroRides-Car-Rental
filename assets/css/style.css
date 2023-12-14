@@ -679,7 +679,7 @@ span {
     width: 95%;
 }
 
-#contact-column>h4 {
+#contact-column>h2 {
     text-align: center;
     font-size: 1.5rem;
     color: #ff5c35;
@@ -719,7 +719,7 @@ span {
     background-color: #ff5c35;
     border: 1px solid black;
     border-radius: 5px;
-    color: white;
+    color: black;
     cursor: pointer;
     transition: .15s;
 }
@@ -1072,7 +1072,7 @@ footer {
     }
 
     #contact-container h1 {
-        padding-left: 60px;
+        padding-left: 95px;
     }
 
     /* Review Section */

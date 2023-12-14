@@ -304,7 +304,7 @@ The Fill up form in the Home page, and the contact us form in the Contact us pag
  - [Balsamiq](https://balsamiq.com/) For Wireframe design.
  - [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
  - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
-
+ - [Cloud Convert](https://cloudconvert.com/jpg-to-webp) to resize image resolutions.
 
 ___
 
@@ -332,6 +332,7 @@ The website was tested using the Chrome Developer tool and through manual testin
 
  - There was a bug encountered when validating application and enquire buttons on the landing page. The validator failed because my anchor element nested a button element. The remedy used for this was to get rid of the button element and style the anchor element to look like a button, which in the end passed the validator.
 
+ - I encountered a problem with lighthouse testing of my website. I kept getting very low results for my perfomance tests. With the help of the slack community and my mentor, they were able to point me to the right direction. I resized all of my images to around 450px to 900px which is the biggest size that was needed to fit the design of the website. I also ran the lighthouse test on incognito mode as any web extension may alter the results.
  ___
 
  # Deployment 
