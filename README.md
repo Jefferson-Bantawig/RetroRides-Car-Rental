@@ -325,6 +325,42 @@ The website was tested using the Chrome Developer tool and through manual testin
 | Explore Help Page  | Hovering changes opacity, and Correct links open in new tab | Pass   |
 | Contact Us Button  | Sends the data entered to Form dump                         | Pass   |
 
+ 1. **W3 Markup Validation - HTML** 
+ ![Html Validator Results](assets/readme/html-validator.png)
+
+ 2. **W3 Jigsaw Validation - CSS** 
+ ![CSS Validator Results](assets/readme/css-validator.png)
+ 
+ 3. **Google Lighthouse Results**
+    **Home Page**
+    Mobile
+    ![Mobile Lighthouse Result](assets/readme/home-mobile.png)
+
+    Desktop
+    ![Desktop Lighthouse Result](assets/readme/home-desktop.png)
+
+    **Services Page**
+    Mobile
+    ![Mobile Lighthouse Result](assets/readme/services-mobile.png)
+
+    Desktop
+    ![Desktop Lighthouse Result](assets/readme/services-desktop.png)
+
+    **Help Page**
+    Mobile
+    ![Mobile Lighthouse Result](assets/readme/help-mobile.png)
+
+    Desktop
+    ![Desktop Lighthouse Result](assets/readme/help-desktop.png)
+
+    **Contact Us Page**
+    Mobile
+    ![Mobile Lighthouse Result](assets/readme/contact-us-mobile.png)
+
+    Desktop
+    ![Desktop Lighthouse Result](assets/readme/contact-us-desktop.png)
+    
+    ___
 
 # Problems & Bugs Encoutered
 
